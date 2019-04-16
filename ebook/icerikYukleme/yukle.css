@@ -1,0 +1,47 @@
+
+
+		/*Tasarım*/
+
+		.body{margin:0px;padding:0px;background:#f1f1f1;}
+
+		.ana{width:500px;margin:auto;border:1px solid #ddd;margin-top:50px;position:relative;}
+
+		.logo_ana{width:600px;height:100px;}
+
+		.logo{width:200px;height:100px;float:left;}
+
+		.baslik{width:280px;height:30px;margin-top:25px;float:left;padding:10px; font-family:'Covered By Your Grace', cursive;font-size:28px;text-align:center;}
+
+		
+
+		.i_ana{width:490px;height:25px;position:relative;padding:5px;border:1px solid #ddd;margin-bottom:10px;font-size:18px;}
+
+		.i_ana input{display:block;width:465px;height:25px;float:left;font-family:'Covered By Your Grace', cursive;font-size:17px;}
+
+		.eksi{width:25px;height:25px;float:left;text-align:center;cursor:pointer;background:#d12c69;color:#fff;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;font-size:20px;}
+
+		.git{width:25px;height:25px;float:left;text-align:center;cursor:pointer;position:absolute;right:0px;top:5px;background:#d12c69;color:#fff;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px; font-family:'Covered By Your Grace', cursive;font-size:18px;}
+
+		.arti{width:35px;height:25px;position:absolute;left:12.5px;top:-12.5px;text-align:center;cursor:pointer;background:#d12c69;color:#fff;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;font-size:20px;}
+
+		.buton{display:block;border:none;width:125px;height:40px;padding:10px;margin:auto;margin-top:25px;text-align:center;cursor:pointer;background:#d12c69;color:#fff;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;font-size:18px;}
+
+		.eksi:hover,.arti:hover,.buton:hover{background:#2793e6;}
+
+		#i{padding:25px;}
+
+		
+
+		iframe,#i[name=sonuc]{display:none;}
+
+		.temiz{clear:both;}
+
+		
+
+		 ::selection {background: #d12c69 ; color:#fff; }
+
+        ::-webkit-selection {background: #d12c69; color:#fff;}
+
+        ::-moz-selection {background: #d12c69; color:#fff;}
+
+        ::-o-selection {background:#d12c69; color:#fff;}

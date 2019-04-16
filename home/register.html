@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="hiras">
+	<title>InSAGE</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/my-login.css">
+</head>
+<?php
+session_start();
+ob_start();
+
+
+if (isset($_SESSION['id'])) {?>
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper" style="padding-top: 5%;">
+					
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Kayıt Ol</h4>
+							<form method="POST" action="kayit.php">
+							 
+								<div class="form-group">
+									<label for="ad">Ad</label>
+									<input type="text" class="form-control" name="ad" required autofocus>
+								</div>
+								<div class="form-group">
+									<label for="soyad">Soyad</label>
+									<input  type="text" class="form-control" name="soyad" required autofocus>
+								</div>
+
+								<div class="form-group">
+									<label for="email">E-mail</label>
+									<input  type="email" class="form-control" name="email" required>
+								</div>
+
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input type="password" class="form-control" name="parola" required data-eye>
+								</div>
+
+									<input type="hidden" value="0" class="form-control" name="bakiye"  placeholder="Bakiye bilgisi giriniz" required="">
+									<input type="hidden" value="0" class="form-control" name="onay"  placeholder="Onay bilgisi giriniz" required="">
+									<input type="hidden" value="1" class="form-control" name="rol"  placeholder="Onay bilgisi giriniz" required="">
+									
+								
+									
+								<div class="form-group no-margin">
+									<input type="submit" class="btn btn-primary btn-block" name="kayit" value="Kaydol"/>
+									
+								</div>
+								
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; Tüm hakları Hiras Yazılıma Aittir.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<?php } 
+
+else{ 
+	header("Location:../index.html");?>
+<?php
+}
+ ?>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/my-login.js"></script>
+</body>
+</html>
