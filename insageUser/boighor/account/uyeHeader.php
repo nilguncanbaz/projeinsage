@@ -4,14 +4,14 @@
 			<div class="col-md-6 col-sm-6 col-6 col-lg-2">
 				<div class="logo">
 					<a href="index.php">
-						<img src="images/logo/logo.png" alt="logo images">
+						<img src="../images/logo/logo.png" alt="logo images">
 					</a>
 				</div>
 			</div>
 			<div class="col-lg-8 d-none d-lg-block">
 				<nav class="mainmenu__nav">
 					<ul class="meninmenu d-flex justify-content-start">
-						<li class="drop with--one--item"><a href="index.php">Anasayfa</a></li>
+						<li class="drop with--one--item"><a href="../index.php">Anasayfa</a></li>
 
 						<li class="drop"><a href="shop-grid.html">Kitaplar</a>
 							<div class="megamenu mega03">
@@ -236,7 +236,7 @@ if (isset($_SESSION['id'])) {
 							
 								<div class="switcher-currency">
 									<strong class="label switcher-label">
-										<span> <a href="account/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>
+										<span> <a href="account/my-account.php"> ÜYE GİRİŞİ</a> </span>
 									</strong>
 									
 								</div>

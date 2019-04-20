@@ -9,7 +9,7 @@
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
 		<!-- Header -->
-		<?php include "../indexHeader.php";?>
+		<?php include "uyeHeader.php";?>
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area bg-image--6">
             <div class="container">
@@ -18,7 +18,7 @@
                         <div class="bradcaump__inner text-center">
                         	<h2 class="bradcaump-title">Üye Girişi</h2>
                             <nav class="bradcaump-content">
-                              <a class="breadcrumb_item" href="index.html">inSAGE</a>
+                              <a class="breadcrumb_item" href="../index.php">inSAGE</a>
                               <span class="brd-separetor">/</span>
                               <span class="breadcrumb_item active">Üye Girişi</span>
                             </nav>
@@ -60,7 +60,7 @@
 					<div class="col-lg-6 col-12">
 						<div class="my__account__wrapper">
 							<h3 class="account__title">Kayıt Ol</h3>
-							<form action="#">
+							<form action="#" method="post">
 								<div class="account__form">
 									<div class="input__box">
 										<label>E-posta <span>*</span></label>
@@ -83,7 +83,7 @@
 		</section>
 		<!-- End My Account Area -->
 		<!-- Footer Area -->
-		<?php include "../indexFooter.html"?>
+		<?php include "uyeFooter.html"?>
 		<!-- //Footer Area -->
 		
 	</div>
