@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="tr">
-<?php include "indexHead.html";?>
+<?php 
+session_start();
+ob_start();
+include "indexHead.html";?>
 <body>
 	<!--[if lte IE 9]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -8,7 +11,7 @@
 
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
-		<?php include "indexHeader.html";?>
+		<?php include "indexHeader.php";?>
 
 		<!-- Start Slider area -->
         <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">

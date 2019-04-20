@@ -70,7 +70,7 @@
 			<div class="col-md-6 col-sm-6 col-6 col-lg-2">
 				<ul class="header__sidebar__right d-flex justify-content-end align-items-center">
 					<li class="shop_search"><a class="search__active" href="#"></a></li>
-					<li class="wishlist"><a href="#"></a></li>
+					<li class="wishlist"> <a href=""></a></li>
 					<li class="shopcart"><a class="cartbox_active" href="#"><span class="product_qun">3</span></a>
 						<!-- Start Shopping Cart -->
 						<div class="block-minicart minicart__active">
@@ -150,7 +150,13 @@
 						</div>
 						<!-- End Shopping Cart -->
 					</li>
-					<li class="setting__bar__icon"><a class="setting__active" href="#"></a>
+					<?php
+
+if (isset($_SESSION['id'])) {
+
+    ?>
+						<li class="wishlist"><a href="#"></a></li>
+						<li class="setting__bar__icon"><a class="setting__active" href="#"></a>
 						<div class="searchbar__content setting__block">
 							<div class="content-inner">
 								<div class="switcher-currency">
@@ -199,7 +205,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="switcher-currency">
+								<div class="switcher-currency"><
 									<strong class="label switcher-label">
 										<span>My Account</span>
 									</strong>
@@ -218,6 +224,45 @@
 							</div>
 						</div>
 					</li>
+
+
+
+						<?php
+} else {?>
+					<li class="setting__bar__icon"><a class="setting__active" href="#"> </a>
+						<div class="searchbar__content setting__block">
+							<div class="content-inner">
+												
+							
+								<div class="switcher-currency">
+									<strong class="label switcher-label">
+										<span> <a href="account/my-account.php"> ÜYE GİRİŞİ</a> </span>
+									</strong>
+									
+								</div>
+								<div class="switcher-currency">
+									<strong class="label switcher-label">
+										<span>DİL SEÇENEĞİ</span>
+									</strong>
+									<div class="switcher-options">
+										<div class="switcher-currency-trigger">
+											<div class="setting__menu">
+												<span><a href="#">TR</a> 
+												<a href="">EN</a> </span>
+												
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<?php
+}
+
+?>
+
 				</ul>
 			</div>
 		</div>
