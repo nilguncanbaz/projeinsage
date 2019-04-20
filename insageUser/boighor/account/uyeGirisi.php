@@ -16,11 +16,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="bradcaump__inner text-center">
-                        	<h2 class="bradcaump-title">My Account</h2>
+                        	<h2 class="bradcaump-title">Üye Girişi</h2>
                             <nav class="bradcaump-content">
-                              <a class="breadcrumb_item" href="index.html">Home</a>
+                              <a class="breadcrumb_item" href="index.html">inSAGE</a>
                               <span class="brd-separetor">/</span>
-                              <span class="breadcrumb_item active">My Account</span>
+                              <span class="breadcrumb_item active">Üye Girişi</span>
                             </nav>
                         </div>
                     </div>
@@ -34,15 +34,15 @@
 				<div class="row">
 					<div class="col-lg-6 col-12">
 						<div class="my__account__wrapper">
-							<h3 class="account__title">Login</h3>
+							<h3 class="account__title">Giriş Yap</h3>
 							<form action="#">
 								<div class="account__form">
 									<div class="input__box">
-										<label>Username or email address <span>*</span></label>
+										<label>Kullanıcı Adı yada E-posta <span>*</span></label>
 										<input type="text">
 									</div>
 									<div class="input__box">
-										<label>Password<span>*</span></label>
+										<label>Şifre<span>*</span></label>
 										<input type="text">
 									</div>
 									<div class="form__btn">
