@@ -63,14 +63,9 @@
 								</ul>
 							</div>
 						</li>
-						
+
 						<li><a href="contact.html">Abonelik</a></li>
 						<li><a href="contact.html">S.S.S</a></li>
-
-
-
-
-
 						<li><a href="contact.html">İletişim</a></li>
 					</ul>
 				</nav>
