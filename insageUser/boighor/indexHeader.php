@@ -24,7 +24,7 @@
 									<li><a href="shop-grid.html">History </a></li>
 								</ul>
 								<ul class="item item03">
-									<li class="title">Customer Favourite</li>
+									<li class="title">kateg Favourite</li>
 									<li><a href="shop-grid.html">Mystery</a></li>
 									<li><a href="shop-grid.html">Religion & Inspiration</a></li>
 									<li><a href="shop-grid.html">Romance</a></li>
