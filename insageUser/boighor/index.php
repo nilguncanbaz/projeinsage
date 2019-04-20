@@ -8,30 +8,16 @@
 
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
-		<?php include "indexHeader.html";?>
+		<?php include "indexHeader.php";?> <br> <br> <br> <br>
 
-		<!-- Start Search Popup -->
-		<div class="brown--color box-search-content search_active block-bg close__top">
-			<form id="search_mini_form" class="minisearch" action="#">
-				<div class="field__search">
-					<input type="text" placeholder="Search entire store here...">
-					<div class="action">
-						<a href="#"><i class="zmdi zmdi-search"></i></a>
-					</div>
-				</div>
-			</form>
-			<div class="close__wrap">
-				<span>close</span>
-			</div>
-		</div>
-		<!-- End Search Popup -->
+		
         <!-- Start Slider area -->
         <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
         	<!-- Start Single Slide -->
-	        <div class="slide animation__style10 bg-image--1 fullscreen align__center--left">
+	        <div class="slide animation__style3 bg-image--1 align__center--left">
 	            <div class="container">
 	            	<div class="row">
-	            		<div class="col-lg-12">
+	            		<div class="col-lg-6">
 	            			<div class="slider__content">
 		            			<div class="contentbox">
 		            				<h2>Buy <span>your </span></h2>
@@ -46,10 +32,10 @@
             </div>
             <!-- End Single Slide -->
         	<!-- Start Single Slide -->
-	        <div class="slide animation__style10 bg-image--7 fullscreen align__center--left">
+	        <div class="slide animation__style3 bg-image--7 align__center--left">
 	            <div class="container">
 	            	<div class="row">
-	            		<div class="col-lg-12">
+	            		<div class="col-lg-6">
 	            			<div class="slider__content">
 		            			<div class="contentbox">
 		            				<h2>Buy <span>your </span></h2>
@@ -65,6 +51,15 @@
             <!-- End Single Slide -->
         </div>
         <!-- End Slider area -->
+
+
+
+        
+
+
+
+
+
 		<!-- Start BEst Seller Area -->
 		<section class="wn__product__area brown--color pt--80  pb--30">
 			<div class="container">
