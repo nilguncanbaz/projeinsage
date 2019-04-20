@@ -46,7 +46,7 @@
                                     <a class="shopbtn" href="#">şimdi satın al</a>
 
                                 </div>
-                            </div>
+                            </div><br><br>
                         </div>
                     </div>
                 </div>
