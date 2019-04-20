@@ -1,6 +1,6 @@
 ﻿<!doctype html>
 <html lang="tr">
-<?php include "uyeHead.html"; ?>
+<?php include "accountHead.html"; ?>
 <body>
 	<!--[if lte IE 9]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -9,7 +9,7 @@
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
 		<!-- Header -->
-		<?php include "uyeHeader.php";?>
+		<?php include "accountHeader.php";?>
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area bg-image--6">
             <div class="container">
@@ -83,7 +83,7 @@
 		</section>
 		<!-- End My Account Area -->
 		<!-- Footer Area -->
-		<?php include "uyeFooter.html"?>
+		<?php include "accountFooter.html"?>
 		<!-- //Footer Area -->
 		
 	</div>
