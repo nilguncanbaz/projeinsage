@@ -236,7 +236,7 @@ if (isset($_SESSION['id'])) {
 							
 								<div class="switcher-currency">
 									<strong class="label switcher-label">
-										<span> <a href="account/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>
+										<span> <a href="account/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>  
 									</strong>
 									
 								</div>
