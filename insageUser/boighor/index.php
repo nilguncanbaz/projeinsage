@@ -26,7 +26,7 @@
                                     <h2>Satın <span>al</span></h2>
                                     <a class="shopbtn" href="#">şimdi satın al</a>
 
-                                </div>
+                                </div><br><br>
                             </div>
                         </div>
                     </div>
