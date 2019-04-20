@@ -11,50 +11,71 @@
 		<?php include "indexHeader.php";?> <br> <br> <br> <br>
 
 		
-        <!-- Start Slider area -->
-        <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
-        	<!-- Start Single Slide -->
-	        <div class="slide animation__style3 bg-image--1 align__center--left">
-	            <div class="container">
-	            	<div class="row">
-	            		<div class="col-lg-6">
-	            			<div class="slider__content">
-		            			<div class="contentbox">
-		            				<h2>Buy <span>your </span></h2>
-		            				<h2>favourite <span>Book </span></h2>
-		            				<h2>from <span>Here </span></h2>
-				                   	<a class="shopbtn" href="#">shop now</a>
-		            			</div>
-	            			</div>
-	            		</div>
-	            	</div>
-	            </div>
-            </div>
-            <!-- End Single Slide -->
-        	<!-- Start Single Slide -->
-	        <div class="slide animation__style3 bg-image--7 align__center--left">
-	            <div class="container">
-	            	<div class="row">
-	            		<div class="col-lg-6">
-	            			<div class="slider__content">
-		            			<div class="contentbox">
-		            				<h2>Buy <span>your </span></h2>
-		            				<h2>favourite <span>Book </span></h2>
-		            				<h2>from <span>Here </span></h2>
-				                   	<a class="shopbtn" href="#">shop now</a>
-		            			</div>
-	            			</div>
-	            		</div>
-	            	</div>
-	            </div>
-            </div>
-            <!-- End Single Slide -->
-        </div>
-        <!-- End Slider area -->
+		<!-- Start Slider area -->
+		<div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
+			<!-- Start Single Slide -->
+			<div class="slide animation__style3 bg-image--1 align__center--left">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="slider__content">
+								<div class="contentbox">
+									<h2>Buy <span>your </span></h2>
+									<h2>favourite <span>Book </span></h2>
+									<h2>from <span>Here </span></h2>
+									<a class="shopbtn" href="#">shop now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Single Slide -->
+			<!-- Start Single Slide -->
+			<div class="slide animation__style3 bg-image--7 align__center--left">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="slider__content">
+								<div class="contentbox">
+									<h2>Buy <span>your </span></h2>
+									<h2>favourite <span>Book </span></h2>
+									<h2>from <span>Here </span></h2>
+									<a class="shopbtn" href="#">shop now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Single Slide -->
+		</div>
+		<!-- End Slider area -->
+		<br> <br>
+		<div class="col-md-6 col-md-offset-3" style="margin:auto; position: relative;">
+			<div class="input-group">
+				<div class="input-group-btn search-panel" data-search="students">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						<span class="search_by">Filter by</span> <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a data-search="students">students</a></li>
+						<li><a data-search="teachers">teachers</a></li>
+						<li><a data-search="rooms">rooms</a></li>
+						<li class="divider"></li>
+						<li><a data-search="all">all</a></li>
+					</ul>
+				</div>   
+				<input type="text" class="form-control" name="x" placeholder="Search term...">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+				</span>
+			</div> 
+		</div>
 
 
 
-        
+
 
 
 
@@ -348,12 +369,12 @@
 				<div class="row mt--50">
 					<div class="col-md-12 col-lg-12 col-sm-12">
 						<div class="product__nav nav justify-content-center" role="tablist">
-                            <a class="nav-item nav-link active" data-toggle="tab" href="#nav-all" role="tab">ALL</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-biographic" role="tab">BIOGRAPHIC</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-adventure" role="tab">ADVENTURE</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-children" role="tab">CHILDREN</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-cook" role="tab">COOK</a>
-                        </div>
+							<a class="nav-item nav-link active" data-toggle="tab" href="#nav-all" role="tab">ALL</a>
+							<a class="nav-item nav-link" data-toggle="tab" href="#nav-biographic" role="tab">BIOGRAPHIC</a>
+							<a class="nav-item nav-link" data-toggle="tab" href="#nav-adventure" role="tab">ADVENTURE</a>
+							<a class="nav-item nav-link" data-toggle="tab" href="#nav-children" role="tab">CHILDREN</a>
+							<a class="nav-item nav-link" data-toggle="tab" href="#nav-cook" role="tab">COOK</a>
+						</div>
 					</div>
 				</div>
 				<div class="tab__container mt--60">
@@ -2698,87 +2719,87 @@
 			</div>
 		</section>
 		<!-- Best Sale Area Area -->
-	<?php include "indexFooter.html";?>
+		<?php include "indexFooter.html";?>
 		<!-- QUICKVIEW PRODUCT -->
 		<div id="quickview-wrapper">
-		    <!-- Modal -->
-		    <div class="modal fade" id="productmodal" tabindex="-1" role="dialog">
-		        <div class="modal-dialog modal__container" role="document">
-		            <div class="modal-content">
-		                <div class="modal-header modal__header">
-		                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		                </div>
-		                <div class="modal-body">
-		                    <div class="modal-product">
-		                        <!-- Start product images -->
-		                        <div class="product-images">
-		                            <div class="main-image images">
-		                                <img alt="big images" src="images/product/big-img/1.jpg">
-		                            </div>
-		                        </div>
-		                        <!-- end product images -->
-		                        <div class="product-info">
-		                            <h1>Simple Fabric Bags</h1>
-		                            <div class="rating__and__review">
-		                                <ul class="rating">
-		                                    <li><span class="ti-star"></span></li>
-		                                    <li><span class="ti-star"></span></li>
-		                                    <li><span class="ti-star"></span></li>
-		                                    <li><span class="ti-star"></span></li>
-		                                    <li><span class="ti-star"></span></li>
-		                                </ul>
-		                                <div class="review">
-		                                    <a href="#">4 customer reviews</a>
-		                                </div>
-		                            </div>
-		                            <div class="price-box-3">
-		                                <div class="s-price-box">
-		                                    <span class="new-price">$17.20</span>
-		                                    <span class="old-price">$45.00</span>
-		                                </div>
-		                            </div>
-		                            <div class="quick-desc">
-		                                Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
-		                            </div>
-		                            <div class="select__color">
-		                                <h2>Select color</h2>
-		                                <ul class="color__list">
-		                                    <li class="red"><a title="Red" href="#">Red</a></li>
-		                                    <li class="gold"><a title="Gold" href="#">Gold</a></li>
-		                                    <li class="orange"><a title="Orange" href="#">Orange</a></li>
-		                                    <li class="orange"><a title="Orange" href="#">Orange</a></li>
-		                                </ul>
-		                            </div>
-		                            <div class="select__size">
-		                                <h2>Select size</h2>
-		                                <ul class="color__list">
-		                                    <li class="l__size"><a title="L" href="#">L</a></li>
-		                                    <li class="m__size"><a title="M" href="#">M</a></li>
-		                                    <li class="s__size"><a title="S" href="#">S</a></li>
-		                                    <li class="xl__size"><a title="XL" href="#">XL</a></li>
-		                                    <li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
-		                                </ul>
-		                            </div>
-		                            <div class="social-sharing">
-		                                <div class="widget widget_socialsharing_widget">
-		                                    <h3 class="widget-title-modal">Share this product</h3>
-		                                    <ul class="social__net social__net--2 d-flex justify-content-start">
-		                                        <li class="facebook"><a href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
-		                                        <li class="linkedin"><a href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
-		                                        <li class="pinterest"><a href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-		                                        <li class="tumblr"><a href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
-		                                    </ul>
-		                                </div>
-		                            </div>
-		                            <div class="addtocart-btn">
-		                                <a href="#">Add to cart</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
+			<!-- Modal -->
+			<div class="modal fade" id="productmodal" tabindex="-1" role="dialog">
+				<div class="modal-dialog modal__container" role="document">
+					<div class="modal-content">
+						<div class="modal-header modal__header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							<div class="modal-product">
+								<!-- Start product images -->
+								<div class="product-images">
+									<div class="main-image images">
+										<img alt="big images" src="images/product/big-img/1.jpg">
+									</div>
+								</div>
+								<!-- end product images -->
+								<div class="product-info">
+									<h1>Simple Fabric Bags</h1>
+									<div class="rating__and__review">
+										<ul class="rating">
+											<li><span class="ti-star"></span></li>
+											<li><span class="ti-star"></span></li>
+											<li><span class="ti-star"></span></li>
+											<li><span class="ti-star"></span></li>
+											<li><span class="ti-star"></span></li>
+										</ul>
+										<div class="review">
+											<a href="#">4 customer reviews</a>
+										</div>
+									</div>
+									<div class="price-box-3">
+										<div class="s-price-box">
+											<span class="new-price">$17.20</span>
+											<span class="old-price">$45.00</span>
+										</div>
+									</div>
+									<div class="quick-desc">
+										Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
+									</div>
+									<div class="select__color">
+										<h2>Select color</h2>
+										<ul class="color__list">
+											<li class="red"><a title="Red" href="#">Red</a></li>
+											<li class="gold"><a title="Gold" href="#">Gold</a></li>
+											<li class="orange"><a title="Orange" href="#">Orange</a></li>
+											<li class="orange"><a title="Orange" href="#">Orange</a></li>
+										</ul>
+									</div>
+									<div class="select__size">
+										<h2>Select size</h2>
+										<ul class="color__list">
+											<li class="l__size"><a title="L" href="#">L</a></li>
+											<li class="m__size"><a title="M" href="#">M</a></li>
+											<li class="s__size"><a title="S" href="#">S</a></li>
+											<li class="xl__size"><a title="XL" href="#">XL</a></li>
+											<li class="xxl__size"><a title="XXL" href="#">XXL</a></li>
+										</ul>
+									</div>
+									<div class="social-sharing">
+										<div class="widget widget_socialsharing_widget">
+											<h3 class="widget-title-modal">Share this product</h3>
+											<ul class="social__net social__net--2 d-flex justify-content-start">
+												<li class="facebook"><a href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
+												<li class="linkedin"><a href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
+												<li class="pinterest"><a href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
+												<li class="tumblr"><a href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="addtocart-btn">
+										<a href="#">Add to cart</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- END QUICKVIEW PRODUCT -->
 	</div>
@@ -2790,6 +2811,34 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/active.js"></script>
+
+
+
+
+
+	<script>
+		
+
+
+
+		$(document).ready(function(e){
+			"use strict";
+			$('.search-panel').each( function() {
+				var to = $(this).data('search').toString();
+				var text = $(this).find('[data-search="' + to + '"]').html();
+				$(this).find('button span.search_by').html(text);
+			});
+
+			$('.search-panel li a').on('click', function(e){
+				var sp = $(this).closest('.search-panel');
+				var to = $(this).html();
+				var text = $(this).html();
+				sp.data('search', to);
+				console.log(sp.find('.search_by'));
+				sp.find('button span.search_by').html(text);
+			});
+		});
+	</script>
 
 </body>
 </html>
