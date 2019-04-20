@@ -16,7 +16,7 @@
 						<li class="drop"><a href="shop-grid.html">Kitaplar</a>
 							<div class="megamenu mega03">
 								<ul class="item item03">
-									<li class="title">Categories</li>
+									<li class="title">Kategoriler</li>
 									<li><a href="shop-grid.html">Biography </a></li>
 									<li><a href="shop-grid.html">Business </a></li>
 									<li><a href="shop-grid.html">Cookbooks </a></li>
