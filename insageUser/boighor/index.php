@@ -34,17 +34,11 @@
 	            		<div class="col-lg-12">
 	            			<div class="slider__content">
 		            			<div class="contentbox">
-<<<<<<< HEAD
 		            				<h2>Favori <span>kitabını </span></h2>
 									<h2><span>Buradan </span></h2>
 									<h2>Satın <span>al</span></h2>
 				                   	<a class="shopbtn" href="#">şimdi satın al</a>
-=======
-		            				<h2>Buy <span>your </span></h2>
-		            				<h2>favourite <span>Book </span></h2>
-		            				<h2>from <span>Here </span></h2>
-				                   	<a class="shopbtn" href="#">shop now</a>
->>>>>>> 56d25bbb74043edb5fa65dbe470a69c80047a546
+
 		            			</div>
 	            			</div>
 	            		</div>
