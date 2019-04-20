@@ -30,7 +30,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
             <!-- End Single Slide -->
             <!-- Start Single Slide -->
