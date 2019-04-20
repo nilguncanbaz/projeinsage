@@ -5,7 +5,7 @@
 	
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
-		<?php include "indexHeader.html";?>
+		<?php include "indexHeader.php";?>
 
 	<br>
 	

@@ -7,7 +7,7 @@
 	<div class="wrapper" id="wrapper">
 		
 		<!-- Header -->
-		<?php include "indexHeader.html" ?>
+		<?php include "indexHeader.php" ?>
 		<!-- //Header -->
 		
 		<br> <br>

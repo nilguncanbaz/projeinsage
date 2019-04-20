@@ -16,7 +16,7 @@ include "indexHead.html";?>
 		<!-- Start Slider area -->
         <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
         	<!-- Start Single Slide -->
-	        <div class="slide animation__style10 bg-image--1 fullscreen align__center--left">
+	        <div class="slide animation__style10 bg-image--1 align__center--left">
 	            <div class="container">
 	            	<div class="row">
 	            		<div class="col-lg-12">
@@ -133,132 +133,15 @@ include "indexHead.html";?>
 			</div>
 		</section>
 		<!-- End NEwsletter Area -->
-		<!-- Start Best Seller Area -->
-		<section class="wn__bestseller__area bg--white pt--80  pb--30">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section__title text-center">
-							<h2 class="title__be--2">Bütün <span class="color--theme">Ürünler</span></h2>
-							</div>
-					</div>
-				</div>
-				<div class="row mt--50">
-					<div class="col-md-12 col-lg-12 col-sm-12">
-						<div class="product__nav nav justify-content-center" role="tablist">
-                            <a class="nav-item nav-link active" data-toggle="tab" href="#nav-all" role="tab">ALL</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-biographic" role="tab">BIOGRAPHIC</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-adventure" role="tab">ADVENTURE</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-children" role="tab">CHILDREN</a>
-                            <a class="nav-item nav-link" data-toggle="tab" href="#nav-cook" role="tab">COOK</a>
-                        </div>
-					</div>
-				</div>
-				<div class="tab__container mt--60">
-					<!-- Start Single Tab Content -->
-					<div class="row single__tab tab-pane fade show active" id="nav-all" role="tabpanel">
-						<div class="product__indicator--4 arrows_style owl-carousel owl-theme">
-							<div class="single__product">
-								<!-- Start Single Product -->
-								<div class="col-lg-3 col-md-4 col-sm-6 col-12">
-									<div class="product product__style--3">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/5.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/6.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">HOT</span>
-											</div>
-										</div>
-										<div class="product__content content--center">
-											<h4><a href="single-product.html">Doctor Wldo</a></h4>
-											<ul class="prize d-flex">
-												<li>$35.00</li>
-												<li class="old_prize">$35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Product -->
-								<!-- Start Single Product -->
-								<div class="col-lg-3 col-md-4 col-sm-6 col-12">
-									<div class="product product__style--3">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/7.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/8.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">HOT</span>
-											</div>
-										</div>
-										<div class="product__content content--center">
-											<h4><a href="single-product.html">Doctor Wldo</a></h4>
-											<ul class="prize d-flex">
-												<li>$35.00</li>
-												<li class="old_prize">$35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Start Single Product -->
-							</div>
-
-
-
-
-							</div>
-						</div>
-					</div>
-					<!-- End Single Tab Content -->
-
-				</div>
-			</div>
-		</section>
-		<!-- Start BEst Seller Area -->
+		
 		<!-- Start Recent Post Area -->
 		<section class="wn__recent__post bg--gray ptb--80">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section__title text-center">
-							<h2 class="title__be--2">Our <span class="color--theme">Blog</span></h2>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered lebmid alteration in some ledmid form</p>
+							<h2 class="title__be--2">Kullanıcı <span class="color--theme">Yorumları</span></h2>
+							<p>sfcxzddddddddddfsdzxgvdfxcgvdfgvfdcvfcbvc</p>
 						</div>
 					</div>
 				</div>
@@ -266,10 +149,10 @@ include "indexHead.html";?>
 					<div class="col-md-6 col-lg-4 col-sm-12">
 						<div class="post__itam">
 							<div class="content">
-								<h3><a href="blog-details.html">International activities of the Frankfurt Book </a></h3>
-								<p>We are proud to announce the very first the edition of the frankfurt news.We are proud to announce the very first of  edition of the fault frankfurt news for us.</p>
+								<h3><a href="blog-details.html">Sefiller</a></h3>
+								<p>Harika bu kitabı burada görmek çok güzel.</p>
 								<div class="post__time">
-									<span class="day">Dec 06, 18</span>
+									<span class="day">6 Kasım 2018</span>
 									<div class="post-meta">
 										<ul>
 											<li><a href="#"><i class="bi bi-love"></i>72</a></li>
@@ -283,10 +166,10 @@ include "indexHead.html";?>
 					<div class="col-md-6 col-lg-4 col-sm-12">
 						<div class="post__itam">
 							<div class="content">
-								<h3><a href="blog-details.html">Reading has a signficant info  number of benefits</a></h3>
-								<p>Find all the information you need to ensure your experience.Find all the information you need to ensure your experience . Find all the information you of.</p>
+								<h3><a href="blog-details.html">Sefiller</a></h3>
+								<p>Harika bu kitabı burada görmek çok güzel.</p>
 								<div class="post__time">
-									<span class="day">Mar 08, 18</span>
+									<span class="day">6 Kasım 2018</span>
 									<div class="post-meta">
 										<ul>
 											<li><a href="#"><i class="bi bi-love"></i>72</a></li>
@@ -300,10 +183,10 @@ include "indexHead.html";?>
 					<div class="col-md-6 col-lg-4 col-sm-12">
 						<div class="post__itam">
 							<div class="content">
-								<h3><a href="blog-details.html">The London Book Fair is to be packed with exciting </a></h3>
-								<p>The London Book Fair is the global area inon marketplace for rights negotiation.The year  London Book Fair is the global area inon forg marketplace for rights.</p>
+								<h3><a href="blog-details.html">Sefiller</a></h3>
+								<p>Harika bu kitabı burada görmek çok güzel..</p>
 								<div class="post__time">
-									<span class="day">Nov 11, 18</span>
+									<span class="day">6 Kasım 2018</span>
 									<div class="post-meta">
 										<ul>
 											<li><a href="#"><i class="bi bi-love"></i>72</a></li>

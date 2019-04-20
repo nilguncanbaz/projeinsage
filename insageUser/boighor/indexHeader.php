@@ -13,6 +13,8 @@
 					<ul class="meninmenu d-flex justify-content-start">
 						<li class="drop with--one--item"><a href="index.php">Anasayfa</a></li>
 
+						<li><a href="contact.html">Biz Kimiz ?</a></li>
+
 						<li class="drop"><a href="shop-grid.html">Kitaplar</a>
 							<div class="megamenu mega03">
 								<ul class="item item03">
@@ -61,6 +63,12 @@
 								</ul>
 							</div>
 						</li>
+						
+						<li><a href="contact.html">Abonelik</a></li>
+						<li><a href="contact.html">S.S.S</a></li>
+
+
+
 
 
 						<li><a href="contact.html">İletişim</a></li>
@@ -69,7 +77,6 @@
 			</div>
 			<div class="col-md-6 col-sm-6 col-6 col-lg-2">
 				<ul class="header__sidebar__right d-flex justify-content-end align-items-center">
-					<li class="shop_search"><a class="search__active" href="#"></a></li>
 					<li class="wishlist"> <a href=""></a></li>
 					<li class="shopcart"><a class="cartbox_active" href="#"><span class="product_qun">3</span></a>
 						<!-- Start Shopping Cart -->
@@ -325,17 +332,4 @@ if (isset($_SESSION['id'])) {
 </header>
 <!-- Start Search Popup -->
 
-<div class="brown--box-search-content search_active block-bg close__top">
-	<form id="search_mini_form" class="minisearch" action="#">
-		<div class="field__search">
-			<input type="text" placeholder="Tüm kitaplarda ara..">
-			<div class="action">
-				<a href="#"><i class="zmdi zmdi-search"></i></a>
-			</div>
-		</div>
-	</form>
-	<div class="close__wrap">
-		<span>kapat</span>
-	</div>
-</div>
 <!-- End Search Popup -->
