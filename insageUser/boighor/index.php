@@ -16,8 +16,8 @@ include "indexHead.html";?>
 		<!-- Start Slider area -->
         <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
         	<!-- Start Single Slide -->
-	        <div class="slide animation__style10 bg-image--1 fullscreen align__center--left">
-	            <div class="container">
+	        <div class="slide animation__style10 bg-image--1  align__center--left"><br>
+	            <div class="container"><br>
 	            	<div class="row">
 	            		<div class="col-lg-12">
 	            			<div class="slider__content">
@@ -26,7 +26,7 @@ include "indexHead.html";?>
 									<h2><span>Buradan </span></h2>
 									<h2>Satın <span>al</span></h2>
 				                   	<a class="shopbtn" href="#">şimdi satın al</a>
-		            			</div>
+		            			</div><br>
 	            			</div>
 	            		</div>
 	            	</div>
