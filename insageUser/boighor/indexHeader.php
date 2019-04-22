@@ -13,60 +13,60 @@
 					<ul class="meninmenu d-flex justify-content-start">
 						<li class="drop with--one--item"><a href="index.php">Anasayfa</a></li>
 
-						<li><a href="contact.html">Biz Kimiz ?</a></li>
+						<li><a href="bizkimiz.php">Biz Kimiz ?</a></li>
 
-						<li class="drop"><a href="shop-grid.html">Kitaplar</a>
+						<li class="drop"><a href="shop-grid.php">Kitaplar</a>
 							<div class="megamenu mega03">
 								<ul class="item item03">
 									<li class="title">Kategoriler</li>
-									<li><a href="shop-grid.html">Biography </a></li>
-									<li><a href="shop-grid.html">Business </a></li>
-									<li><a href="shop-grid.html">Cookbooks </a></li>
-									<li><a href="shop-grid.html">Health & Fitness </a></li>
-									<li><a href="shop-grid.html">History </a></li>
+									<li><a href="shop-grid.php">Biography </a></li>
+									<li><a href="shop-grid.php">Business </a></li>
+									<li><a href="shop-grid.php">Cookbooks </a></li>
+									<li><a href="shop-grid.php">Health & Fitness </a></li>
+									<li><a href="shop-grid.php">History </a></li>
 								</ul>
 								<ul class="item item03">
 									<li class="title">kateg Favourite</li>
-									<li><a href="shop-grid.html">Mystery</a></li>
-									<li><a href="shop-grid.html">Religion & Inspiration</a></li>
-									<li><a href="shop-grid.html">Romance</a></li>
-									<li><a href="shop-grid.html">Fiction/Fantasy</a></li>
-									<li><a href="shop-grid.html">Sleeveless</a></li>
+									<li><a href="shop-grid.php">Mystery</a></li>
+									<li><a href="shop-grid.php">Religion & Inspiration</a></li>
+									<li><a href="shop-grid.php">Romance</a></li>
+									<li><a href="shop-grid.php">Fiction/Fantasy</a></li>
+									<li><a href="shop-grid.php">Sleeveless</a></li>
 								</ul>
 								<ul class="item item03">
 									<li class="title">Collections</li>
-									<li><a href="shop-grid.html">Science </a></li>
-									<li><a href="shop-grid.html">Fiction/Fantasy</a></li>
-									<li><a href="shop-grid.html">Self-Improvemen</a></li>
-									<li><a href="shop-grid.html">Home & Garden</a></li>
-									<li><a href="shop-grid.html">Humor Books</a></li>
+									<li><a href="shop-grid.php">Science </a></li>
+									<li><a href="shop-grid.php">Fiction/Fantasy</a></li>
+									<li><a href="shop-grid.php">Self-Improvemen</a></li>
+									<li><a href="shop-grid.php">Home & Garden</a></li>
+									<li><a href="shop-grid.php">Humor Books</a></li>
 								</ul>
 							</div>
 						</li>
-						<li class="drop"><a href="shop-grid.html">Kategoriler</a>
+						<li class="drop"><a href="kategoriicerik.php">Kategoriler</a>
 							<div class="megamenu mega02">
 								<ul class="item item02">
 									<li class="title">Top Collections</li>
-									<li><a href="shop-grid.html">American Girl</a></li>
-									<li><a href="shop-grid.html">Diary Wimpy Kid</a></li>
-									<li><a href="shop-grid.html">Finding Dory</a></li>
-									<li><a href="shop-grid.html">Harry Potter</a></li>
-									<li><a href="shop-grid.html">Land of Stories</a></li>
+									<li><a href="kategoriicerik.php">American Girl</a></li>
+									<li><a href="kategoriicerik.php">Diary Wimpy Kid</a></li>
+									<li><a href="kategoriicerik.php">Finding Dory</a></li>
+									<li><a href="kategoriicerik.php">Harry Potter</a></li>
+									<li><a href="kategoriicerik.php">Land of Stories</a></li>
 								</ul>
 								<ul class="item item02">
 									<li class="title">More For Kids</li>
-									<li><a href="shop-grid.html">B&N Educators</a></li>
-									<li><a href="shop-grid.html">B&N Kids' Club</a></li>
-									<li><a href="shop-grid.html">Kids' Music</a></li>
-									<li><a href="shop-grid.html">Toys & Games</a></li>
-									<li><a href="shop-grid.html">Hoodies</a></li>
+									<li><a href="kategoriicerik.php">B&N Educators</a></li>
+									<li><a href="kategoriicerik.php">B&N Kids' Club</a></li>
+									<li><a href="kategoriicerik.php">Kids' Music</a></li>
+									<li><a href="kategoriicerik.php">Toys & Games</a></li>
+									<li><a href="kategoriicerik.php">Hoodies</a></li>
 								</ul>
 							</div>
 						</li>
 
-						<li><a href="contact.html">Abonelik</a></li>
-						<li><a href="contact.html">S.S.S</a></li>
-						<li><a href="contact.html">İletişim</a></li>
+						<li><a href="abonelik.php">Abonelik</a></li>
+						<li><a href="sss.php">S.S.S</a></li>
+						<li><a href="contact.php">İletişim</a></li>
 					</ul>
 				</nav>
 			</div>
