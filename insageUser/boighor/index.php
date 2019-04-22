@@ -108,7 +108,7 @@
             </div>
         </div>
         <br><br>
-        <div class="col-md-6 col-md-offset-3" style="float: left;">
+        <div class="col-md-6 col-md-offset-3" style="float:left ;">
             <div class="input-group">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OegB_0J5Ac8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                
@@ -117,7 +117,7 @@
                 <p>djksfhsdkjfgsdkjhgk</p>
             </div>
         </div>
-        <div class="col-md-6 col-md-offset-3" style="float: left;">
+        <div class="col-md-6 col-md-offset-3" style="float: right;">
             <div class="input-group">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OegB_0J5Ac8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 

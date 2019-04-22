@@ -13,7 +13,7 @@
 					<ul class="meninmenu d-flex justify-content-start">
 						<li class="drop with--one--item"><a href="index.php">Anasayfa</a></li>
 
-						<li><a href="bizkimiz.php">Biz Kimiz ?</a></li>
+						<li><a href="about.php">Biz Kimiz ?</a></li>
 
 						<li class="drop"><a href="shop-grid.php">Kitaplar</a>
 							<div class="megamenu mega03">
