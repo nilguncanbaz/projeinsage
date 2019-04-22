@@ -101,7 +101,7 @@
 
 
                 </div>
-                <input type="text" class="form-control" name="x" placeholder="Literatür Arama">
+                <input type="text" class="form-control" name="x" placeholder="Literatür Tarama">
                 <span class="input-group-btn">
                     <button class="btn btn-default" type="button"><span class="bi bi-search"></span></button>
                 </span>
@@ -110,14 +110,20 @@
         <br><br>
         <div class="col-md-6 col-md-offset-3" style="float: left;">
             <div class="input-group">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OegB_0J5Ac8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                
-                <p> kdjfgsdhfgskdfgsdjkhfgd</p>
+            </div>
+            <div class="input-group">
+                <p>djksfhsdkjfgsdkjhgk</p>
             </div>
         </div>
         <div class="col-md-6 col-md-offset-3" style="float: left;">
             <div class="input-group">
-               
-                <p> kdjfgsdhfgskdfgsdjkhfgd</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OegB_0J5Ac8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+            <div class="input-group">
+                <p>djksfhsdkjfgsdkjhgk</p>
             </div>
         </div>
                 </div>
