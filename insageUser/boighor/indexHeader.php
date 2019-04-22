@@ -43,7 +43,7 @@
 								</ul>
 							</div>
 						</li>
-						<li class="drop"><a href="kategoriicerik.php">Kategoriler</a>
+						<li class="drop"><a href="#">Kategoriler</a>
 							<div class="megamenu mega02">
 								<ul class="item item02">
 									<li class="title">Top Collections</li>
@@ -238,7 +238,7 @@ if (isset($_SESSION['id'])) {
 							
 								<div class="switcher-currency">
 									<strong class="label switcher-label">
-										<span> <a href="account/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>  
+										<span> <a href="uyeGirisi/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>  
 									</strong>
 									
 								</div>
