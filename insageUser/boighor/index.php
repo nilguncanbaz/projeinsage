@@ -348,8 +348,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.php"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="#"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -397,8 +395,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.php"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="#"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -444,8 +440,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.php"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="#"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -493,8 +487,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.php"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="#"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -540,8 +532,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.php"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="#"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -589,8 +579,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -636,8 +624,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -685,8 +671,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -732,8 +716,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -787,8 +769,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -834,8 +814,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -883,8 +861,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -930,8 +906,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -979,8 +953,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1026,8 +998,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1075,8 +1045,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1122,8 +1090,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1171,8 +1137,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1218,8 +1182,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1273,8 +1235,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1320,8 +1280,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1369,8 +1327,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1416,8 +1372,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1465,8 +1419,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1512,8 +1464,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1561,8 +1511,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1608,8 +1556,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        <li><a class="wishlist" href="wishlist.html"><i
-                                                                    class="bi bi-shopping-cart-full"></i></a></li>
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1757,7 +1703,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1803,7 +1748,6 @@
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
