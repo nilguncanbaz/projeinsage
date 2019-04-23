@@ -79,6 +79,7 @@ include "icerikYukleme/dosyaSay.php";?>
          <h6>&nbsp;&nbsp;<i class="fa fa-file-image-o"></i> Çoklu Fotoğraf Yükle </h6>
          <form action="icerikYukleme/yukle.php?ISBN=<?php echo $_REQUEST['ISBN'] ?>"method="post" enctype="multipart/form-data" id="yukle" >
 
+<<<<<<< HEAD
           <?php
           $klasor = 'icerikYukleme/dosyalar/' . $_REQUEST['ISBN'] . '/pages/';
           if (sayibul($klasor) == $kullaniciCek['pageSize']+2) {
@@ -86,6 +87,15 @@ include "icerikYukleme/dosyaSay.php";?>
             <?php
           } else if (sayibul($klasor) == 0) {?>
             <input type="file" name="resim[]" id="filer_example2"  multiple="multiple" />
+=======
+														<?php
+$klasor = 'icerikYukleme/dosyalar/' . $_REQUEST['ISBN'] . '/pages/';
+if (sayibul($klasor) == $kullaniciCek['pageSize'] + 2) {
+    ?>&nbsp;&nbsp; <?php	echo "Kitap sayfaları tam"; ?> <i class="fa fa-check" aria-hidden="true"  ></i>
+                              <?php
+} else if (sayibul($klasor) == 0) {?>
+                              <input type="file" name="resim[]" id="filer_example2"  multiple="multiple" />
+>>>>>>> c57256a68fdf49253fc75246a8fecc0aa3f420b3
 
             <input type="submit" class="btn btn-danger"  value="Fotoğrafları Yükle  " />
             <?php
