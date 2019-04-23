@@ -30,10 +30,10 @@ $ds=@count($_FILES["resim"]["name"]);//gönderilen dosya sayısı
 if($ds!=1){//Sayfa Sayısı kadar dosya seçme
 
 
-?>
-<script> alert("Kitaptaki Sayfa Sayısı Kadar Dosya Seçiniz !");</script>
-<meta http-equiv="refresh" content="0.2;url=../kitapyukleme.php?ISBN=<?php echo $ISBN ?>">  
-<?php 
+	?>
+	<script> alert("Kitaptaki Sayfa Sayısı Kadar Dosya Seçiniz !");</script>
+	<meta http-equiv="refresh" content="0.2;url=../kitapyukleme.php?ISBN=<?php echo $ISBN ?>">  
+	<?php 
 
 /*
 
@@ -85,8 +85,15 @@ if($ds!=1){//Sayfa Sayısı kadar dosya seçme
 
 					}else{
 
-						
-						unlink($cek['yol']);
+						$eskiYol=$Cek['yol']; //"icerikYukleme/dosyalar/".$ISBN."/pages/".$isim;  gelen yol
+
+
+						 $parca = explode("/",$eskiYol); // yolu / parçaladık
+
+						 $yeniYol=$parca[1]."/".$parca[2]."/".$parca[3]."/".$parca[4]; //klasörde silinecek yeni yolu oluşturdum
+
+
+						unlink($yeniYol); //klasördeki güncellemeden önceki sayfayı sildik
 
 						$dizin="dosyalar/".$ISBN."/pages/".$isim;//hiç bir sorun yoksa dosyayı upload et
 						$yol="icerikYukleme/dosyalar/".$ISBN."/pages/".$isim; 
