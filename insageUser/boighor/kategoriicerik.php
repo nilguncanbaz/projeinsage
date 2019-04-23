@@ -7,8 +7,8 @@
 	<div class="wrapper" id="wrapper">
 		<?php include "indexHeader.php";?>
 
-	<br>
-	
+		<br>
+		
 		<!-- Start Best Seller Area -->
 		<section class="wn__bestseller__area bg--white pt--80  pb--30">
 			<div class="container">
@@ -22,61 +22,61 @@
 				</div>
 				<br>
 				
-						<div class="product__indicator--4 arrows_style owl-carousel owl-theme">
-							<div class="single__product">
-								<!-- Start Single Product -->
-								<div class="col-lg-3 col-md-4 col-sm-6 col-12">
-									<div class="product product__style--3">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/1.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/2.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">EN BEĞENİLENLER</span>
-											</div>
-										</div>
-										<div class="product__content content--center content--center">
-											<h4><a href="single-product.html">SPSS</a></h4>
-											<ul class="prize d-flex">
-												<li>50.00</li>
-												<li class="old_prize">35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.php"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
+				<div class="product__indicator--4 arrows_style owl-carousel owl-theme">
+					<div class="single__product">
+						<!-- Start Single Product -->
+						<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+							<div class="product product__style--3">
+								<div class="product__thumb">
+									<a class="first__img" href="kitapBilgi.php"><img src="images/books/1.jpg" alt="product image"></a>
+									<a class="second__img animation1" href="single-product.html"><img src="images/books/2.jpg" alt="product image"></a>
+									<div class="hot__box">
+										<span class="hot-label">EN BEĞENİLENLER</span>
 									</div>
 								</div>
-								<!-- Start Single Product -->
-							
+								<div class="product__content content--center content--center">
+									<h4><a href="single-product.html">SPSS</a></h4>
+									<ul class="prize d-flex">
+										<li>50.00</li>
+										<li class="old_prize">35.00</li>
+									</ul>
+									<div class="action">
+										<div class="actions_inner">
+											<ul class="add_to_links">
+												<li><a class="cart" href="cart.php"><i class="bi bi-shopping-bag4"></i></a></li>
+												<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
+												<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="product__hover--content">
+										<ul class="rating d-flex">
+											<li class="on"><i class="fa fa-star-o"></i></li>
+											<li class="on"><i class="fa fa-star-o"></i></li>
+											<li class="on"><i class="fa fa-star-o"></i></li>
+											<li><i class="fa fa-star-o"></i></li>
+											<li><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>
 							</div>
-						
-				
-						
-						
 						</div>
+						<!-- Start Single Product -->
+						
+					</div>
 					
 					
 					
+					
+				</div>
+				
+				
+				
 			</div>
 		</section>
 		<!-- Start BEst Seller Area -->
 		
-	<?php include "indexFooter.html";?>
+		<?php include "indexFooter.html";?>
 		<!-- QUICKVIEW PRODUCT -->
 		<div id="quickview-wrapper">
 			<!-- Modal -->
@@ -116,23 +116,13 @@
 										</div>
 									</div>
 									<div class="quick-desc">
-									 icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkk
+										icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkkicerik icerik icerikkkk iceriikkk
 									</div>
-								
 									
-									<div class="social-sharing">
-										<div class="widget widget_socialsharing_widget">
-											<h3 class="widget-title-modal">Kitabı paylaş</h3>
-											<ul class="social__net social__net--2 d-flex justify-content-start">
-												<li class="facebook"><a href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
-												<li class="linkedin"><a href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
-												<li class="pinterest"><a href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-												<li class="tumblr"><a href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
-											</ul>
-										</div>
-									</div>
+									
+									
 									<div class="addtocart-btn">
-										<a href="#">Sepete Ekle</a>
+										<a href="cart.php">Sepete Ekle</a>
 									</div>
 								</div>
 							</div>
