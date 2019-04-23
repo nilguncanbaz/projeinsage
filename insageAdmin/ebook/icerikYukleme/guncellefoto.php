@@ -8,22 +8,32 @@ $ISBN=$_REQUEST['ISBN'];
 
 
 
+$Sor=$db->prepare("SELECT * from ebook_sayfa_resim where ISBN=:ISBN and sayfaNo=:sayfaNo");
+$Sor->execute(array(
+	'ISBN' => $ISBN,
+	'sayfaNo' => $sayfaNo
+
+));
+$Cek=$Sor->fetch(PDO::FETCH_ASSOC); 
 
 
 
-	$boyut=1000000;//max dosya boyutu
 
-	$tipler=array("image/png","image/jpeg","image/gif","image/pjpeg");//desteklenen dosya türleri
 
-	$ds=@count($_FILES["resim"]["name"]);//gönderilen dosya sayısı
-	
-	if($ds!=1){//Sayfa Sayısı kadar dosya seçme
-		
 
-		?>
-		<script> alert("Kitaptaki Sayfa Sayısı Kadar Dosya Seçiniz !");</script>
-		<meta http-equiv="refresh" content="0.2;url=../kitapyukleme.php?ISBN=<?php echo $ISBN ?>">  
-		<?php 
+$boyut=1000000;//max dosya boyutu
+
+$tipler=array("image/png","image/jpeg","image/gif","image/pjpeg");//desteklenen dosya türleri
+
+$ds=@count($_FILES["resim"]["name"]);//gönderilen dosya sayısı
+
+if($ds!=1){//Sayfa Sayısı kadar dosya seçme
+
+
+?>
+<script> alert("Kitaptaki Sayfa Sayısı Kadar Dosya Seçiniz !");</script>
+<meta http-equiv="refresh" content="0.2;url=../kitapyukleme.php?ISBN=<?php echo $ISBN ?>">  
+<?php 
 
 /*
 
@@ -59,12 +69,11 @@ $ISBN=$_REQUEST['ISBN'];
 
 
 
-
 			if(!empty($_FILES["resim"]["name"])){//boş kontrolü
 
 			if(in_array($_FILES["resim"]["type"],$tipler)){//tip kontrolü
 
-				$isim=$_FILES["resim"]["name"];//rasgele isim
+				$isim=$_FILES["resim"]["name"];
 				$uzanti=substr($_FILES["resim"]["name"],-4,4);//uzantıyı alma
 
 				if($uzanti==".gif" or $uzanti==".jpg" or $uzanti==".png" or $uzanti==".jpeg"){//uzantı kontrolü
@@ -77,6 +86,8 @@ $ISBN=$_REQUEST['ISBN'];
 					}else{
 
 						
+						unlink($cek['yol']);
+
 						$dizin="dosyalar/".$ISBN."/pages/".$isim;//hiç bir sorun yoksa dosyayı upload et
 						$yol="icerikYukleme/dosyalar/".$ISBN."/pages/".$isim; 
 

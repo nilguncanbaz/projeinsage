@@ -11,7 +11,7 @@ $sayfaSor->execute(array(
 ));
 $sayfaCek=$sayfaSor->fetch(PDO::FETCH_ASSOC);
 
-$sayfasayisi=$sayfaCek['pageSize'];
+$sayfasayisi=$sayfaCek['pageSize']+2;
 
 
 
@@ -19,6 +19,7 @@ $sayfasayisi=$sayfaCek['pageSize'];
 	$boyut=1000000;//max dosya boyutu
 
 	$tipler=array("image/png","image/jpeg","image/gif","image/pjpeg");//desteklenen dosya türleri
+	
 
 	$ds=@count($_FILES["resim"]["name"])-1;//gönderilen dosya sayısı
 
@@ -27,8 +28,8 @@ $sayfasayisi=$sayfaCek['pageSize'];
 		
 
 		?>
-			<script> alert("Kitaptaki Sayfa Sayısı Kadar Dosya Seçiniz !");</script>
-			<meta http-equiv="refresh" content="0.2;url=../kitapyukleme.php?ISBN=<?php echo $ISBN ?>">  
+		<script> alert("Kitaptaki Sayfa Sayısı Kadar Dosya Seçiniz !");</script>
+		<meta http-equiv="refresh" content="0.2;url=../kitapyukleme.php?ISBN=<?php echo $ISBN ?>">  
 		<?php 
 
 /*
@@ -68,8 +69,6 @@ $sayfasayisi=$sayfaCek['pageSize'];
 
 
 			while ($idCek=$idSor->fetch(PDO::FETCH_ASSOC)) { 
-
-
 
 			if(!empty($_FILES["resim"]["name"][$i])){//boş kontrolü
 

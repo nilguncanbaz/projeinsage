@@ -43,7 +43,6 @@ if(isset($_POST["kaydet"])){
 		
 	}
 
-
 	for($var=0; $var<=$sayfasayisi+1; $var++){
 		if($var==0){
 			$ekle=$db->query("INSERT INTO ebook_sayfa_resim VALUES (null,'$isbn','onKapak','icerikYukleme/dosyalar/onKapak.jpg')", PDO::FETCH_ASSOC);
