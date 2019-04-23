@@ -96,14 +96,14 @@
 									<!-- Start Single Product -->
 									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
 										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/1.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/2.jpg" alt="product image"></a>
+											<a class="first__img" href="kitapicerik.php"><img src="images/books/1.jpg" alt="product image"></a>
+											<a class="second__img animation1" href="kitapicerik.php"><img src="images/books/2.jpg" alt="product image"></a>
 											<div class="hot__box">
 												<span class="hot-label">EN BEĞENİLENLER</span>
 											</div>
 										</div>
 										<div class="product__content content--center">
-											<h4><a href="single-product.html">Nutuk</a></h4>
+											<h4><a href="kitapicerik.php">Nutuk</a></h4>
 											<ul class="prize d-flex">
 												<li>35.00</li>
 												<li class="old_prize">35.00</li>
@@ -111,7 +111,7 @@
 											<div class="action">
 												<div class="actions_inner">
 													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
+														<li><a class="cart" href="cart.php"><i class="bi bi-shopping-bag4"></i></a></li>
 														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
 														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
 													</ul>
@@ -129,77 +129,8 @@
 										</div>
 									</div>
 									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/3.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/4.jpg" alt="product image"></a>
-											<div class="hot__box color--2">
-												<span class="hot-label">YENİ</span>
-											</div>
-										</div>
-										<div class="product__content content--center">
-											<h4><a href="single-product.html">Şeker Portakalı</a></h4>
-											<ul class="prize d-flex">
-												<li>35.00</li>
-												<li class="old_prize">35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/7.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/8.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">YENİ</span>
-											</div>
-										</div>
-										<div class="product__content content--center">
-											<h4><a href="single-product.html">Geyikli Park</a></h4>
-											<ul class="prize d-flex">
-												<li>35.00</li>
-												<li class="old_prize">50.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
+								
+						
 
 									
 								</div>
@@ -216,11 +147,11 @@
 									<!-- Start Single Product -->
 									<div class="list__view">
 										<div class="thumb">
-											<a class="first__img" href="single-product.html"><img src="images/product/1.jpg" alt="product images"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/product/2.jpg" alt="product images"></a>
+											<a class="first__img" href="kitapicerik.php"><img src="images/product/1.jpg" alt="product images"></a>
+											<a class="second__img animation1" href="kitapicerik.php"><img src="images/product/2.jpg" alt="product images"></a>
 										</div>
 										<div class="content">
-											<h2><a href="single-product.html">Nutuk</a></h2>
+											<h2><a href="kitapicerik.php">Nutuk</a></h2>
 											<ul class="rating d-flex">
 												<li class="on"><i class="fa fa-star-o"></i></li>
 												<li class="on"><i class="fa fa-star-o"></i></li>
@@ -237,44 +168,15 @@
 
 											</p>
 											<ul class="cart__action d-flex">
-												<li class="cart"><a href="cart.html">Sepete Ekle</a></li>
-												<li class="wishlist"><a href="cart.html"></a></li>
-												<li class="compare"><a href="cart.html"></a></li>
-											</ul>
-
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="list__view mt--40">
-										<div class="thumb">
-											<a class="first__img" href="single-product.html"><img src="images/product/2.jpg" alt="product images"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/product/4.jpg" alt="product images"></a>
-										</div>
-										<div class="content">
-											<h2><a href="single-product.html">Sefiller</a></h2>
-											<ul class="rating d-flex">
-												<li class="on"><i class="fa fa-star-o"></i></li>
-												<li class="on"><i class="fa fa-star-o"></i></li>
-												<li class="on"><i class="fa fa-star-o"></i></li>
-												<li class="on"><i class="fa fa-star-o"></i></li>
-												<li><i class="fa fa-star-o"></i></li>
-												<li><i class="fa fa-star-o"></i></li>
-											</ul>
-											<ul class="prize__box">
-												<li>111.00</li>
-												<li class="old__prize">220.00</li>
-											</ul>
-											<p>Sefiller, Fransız edebiyatının önemli romanları arasında yer alan, romantik akımın etkilerini taşıyan bir eserdir. Romanda kürek mahkûmu Jan Valjen ve polis müfettişi Javert arasında sürüp giden bir kovalamacanın öyküsü anlatılır.</p>
-											<ul class="cart__action d-flex">
 												<li class="cart"><a href="cart.php">Sepete Ekle</a></li>
-												<li class="wishlist"><a href="cart.php"></a></li>
-												<li class="compare"><a href="cart.php"></a></li>
+												<li class="wishlist"><a href="#" onClick="return confirm('Favorilerinize kitap eklemek için oturum açın ya da yeni hesap oluşturun!')"></a></li>
+												<li class="compare"><a href="kitapicerik.php"></a></li>
 											</ul>
 
 										</div>
 									</div>
 									<!-- End Single Product -->
+							
 								</div>
 							</div>
 						</div>

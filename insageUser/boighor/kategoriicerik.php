@@ -29,13 +29,13 @@
 							<div class="product product__style--3">
 								<div class="product__thumb">
 									<a class="first__img" href="kitapBilgi.php"><img src="images/books/1.jpg" alt="product image"></a>
-									<a class="second__img animation1" href="single-product.html"><img src="images/books/2.jpg" alt="product image"></a>
+									<a class="second__img animation1" href="kitapicerik.php"><img src="images/books/2.jpg" alt="product image"></a>
 									<div class="hot__box">
 										<span class="hot-label">EN BEĞENİLENLER</span>
 									</div>
 								</div>
 								<div class="product__content content--center content--center">
-									<h4><a href="single-product.html">SPSS</a></h4>
+									<h4><a href="kitapicerik.php">SPSS</a></h4>
 									<ul class="prize d-flex">
 										<li>50.00</li>
 										<li class="old_prize">35.00</li>
