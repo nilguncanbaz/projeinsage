@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-6 col-lg-2">
 				<div class="logo">
-					<a href="index.php">
+					<a href="../index.php">
 						<img src="../images/logo/logo.png" alt="logo images">
 					</a>
 				</div>
@@ -14,6 +14,7 @@
 						<li class="drop with--one--item"><a href="../index.php">Anasayfa</a></li>
 						<li><a href="../about.php">Biz Kimiz ?</a></li>
 
+<<<<<<< HEAD:insageUser/boighor/uyeGirisi/accountHeader.php
 
 						<li class="drop"><a href="#">Kitaplar</a> 
 							<div class="megamenu mega03">
@@ -40,6 +41,35 @@
 									<li><a href="../shop-grid.php">Self-Improvemen</a></li>
 									<li><a href="../shop-grid.php">Home & Garden</a></li>
 									<li><a href="../shop-grid.php">Humor Books</a></li>
+=======
+						<li><a href="../about.php">Biz Kimiz ?</a></li>
+
+						<li class="drop"><a href="shop-grid.php">Kitaplar</a>
+							<div class="megamenu mega03">
+								<ul class="item item03">
+									<li class="title">Kategoriler</li>
+									<li><a href="shop-grid.php">Biography </a></li>
+									<li><a href="shop-grid.php">Business </a></li>
+									<li><a href="shop-grid.php">Cookbooks </a></li>
+									<li><a href="shop-grid.php">Health & Fitness </a></li>
+									<li><a href="shop-grid.php">History </a></li>
+								</ul>
+								<ul class="item item03">
+									<li class="title">kateg Favourite</li>
+									<li><a href="shop-grid.php">Mystery</a></li>
+									<li><a href="shop-grid.php">Religion & Inspiration</a></li>
+									<li><a href="shop-grid.php">Romance</a></li>
+									<li><a href="shop-grid.php">Fiction/Fantasy</a></li>
+									<li><a href="shop-grid.php">Sleeveless</a></li>
+								</ul>
+								<ul class="item item03">
+									<li class="title">Collections</li>
+									<li><a href="shop-grid.php">Science </a></li>
+									<li><a href="shop-grid.php">Fiction/Fantasy</a></li>
+									<li><a href="shop-grid.php">Self-Improvemen</a></li>
+									<li><a href="shop-grid.php">Home & Garden</a></li>
+									<li><a href="shop-grid.php">Humor Books</a></li>
+>>>>>>> f0026ad350e66efe634723690d36c5e8b34734d7:insageUser/boighor/uyeGirisi/accountHeader.php
 								</ul>
 							</div>
 						</li>
@@ -47,6 +77,7 @@
 							<div class="megamenu mega02">
 								<ul class="item item02">
 									<li class="title">Top Collections</li>
+<<<<<<< HEAD:insageUser/boighor/uyeGirisi/accountHeader.php
 									<li><a href="../kategoriicerik.php">American Girl</a></li>
 									<li><a href="../kategoriicerik.php">Diary Wimpy Kid</a></li>
 									<li><a href="../kategoriicerik.php">Finding Dory</a></li>
@@ -60,6 +91,21 @@
 									<li><a href="../kategoriicerik.php">Kids' Music</a></li>
 									<li><a href="../kategoriicerik.php">Toys & Games</a></li>
 									<li><a href="../kategoriicerik.php">Hoodies</a></li>
+=======
+									<li><a href="kategoriicerik.php">American Girl</a></li>
+									<li><a href="kategoriicerik.php">Diary Wimpy Kid</a></li>
+									<li><a href="kategoriicerik.php">Finding Dory</a></li>
+									<li><a href="kategoriicerik.php">Harry Potter</a></li>
+									<li><a href="kategoriicerik.php">Land of Stories</a></li>
+								</ul>
+								<ul class="item item02">
+									<li class="title">More For Kids</li>
+									<li><a href="kategoriicerik.php">B&N Educators</a></li>
+									<li><a href="kategoriicerik.php">B&N Kids' Club</a></li>
+									<li><a href="kategoriicerik.php">Kids' Music</a></li>
+									<li><a href="kategoriicerik.php">Toys & Games</a></li>
+									<li><a href="kategoriicerik.php">Hoodies</a></li>
+>>>>>>> f0026ad350e66efe634723690d36c5e8b34734d7:insageUser/boighor/uyeGirisi/accountHeader.php
 								</ul>
 							</div>
 						</li>
@@ -72,11 +118,16 @@
 			</div>
 			<div class="col-md-6 col-sm-6 col-6 col-lg-2">
 				<ul class="header__sidebar__right d-flex justify-content-end align-items-center">
+<<<<<<< HEAD:insageUser/boighor/uyeGirisi/accountHeader.php
 
 					<li class="wishlist"> <a href="#" onClick="return confirm('Favorilerinize kitap eklemek için oturum açın ya da yeni hesap oluşturun!')"></a></li>
 
 
 					<li class="shopcart"><a class="cartbox_active" href="#"><span class="product_qun">2</span></a>
+=======
+					<li class="wishlist"> <a href=""></a></li>
+					<li class="shopcart"><a class="cartbox_active" href="#"><span class="product_qun">3</span></a>
+>>>>>>> f0026ad350e66efe634723690d36c5e8b34734d7:insageUser/boighor/uyeGirisi/accountHeader.php
 						<!-- Start Shopping Cart -->
 						<div class="block-minicart minicart__active">
 							<div class="minicart-content-wrapper">
@@ -223,7 +274,7 @@ if (isset($_SESSION['id'])) {
 							
 								<div class="switcher-currency">
 									<strong class="label switcher-label">
-										<span> <a href="account/my-account.php"> ÜYE GİRİŞİ</a> </span>
+										<span> <a href="uyeGirisi/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>  
 									</strong>
 									
 								</div>
@@ -298,7 +349,7 @@ if (isset($_SESSION['id'])) {
 
 
 
-						<li><a href="contact.html">İletişim</a></li>
+						<li><a href="../contact.html">İletişim</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -312,17 +363,4 @@ if (isset($_SESSION['id'])) {
 </header>
 <!-- Start Search Popup -->
 
-<div class="brown--box-search-content search_active block-bg close__top">
-	<form id="search_mini_form" class="minisearch" action="#">
-		<div class="field__search">
-			<input type="text" placeholder="Tüm kitaplarda ara..">
-			<div class="action">
-				<a href="#"><i class="zmdi zmdi-search"></i></a>
-			</div>
-		</div>
-	</form>
-	<div class="close__wrap">
-		<span>kapat</span>
-	</div>
-</div>
 <!-- End Search Popup -->

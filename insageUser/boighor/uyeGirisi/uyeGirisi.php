@@ -73,7 +73,7 @@
                                     <div class="form__btn">
 
                                         <p>Üye değil misiniz?<br>Hemen üye olun, inSAge ile kitaplardan faydalanın !</p>
-                                        <img src="img/uye-ol-bg.jpg" alt=""> <br><br>
+                                        <img style="width:56%"src="img/uyeOl.png" alt="uyeOl"> <br><br>
                                         <button style="padding-left:25%;padding-right:25%">Hemen Üye Ol</button>
 
                                     </div><br>
