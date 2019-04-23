@@ -200,116 +200,6 @@
 											</div>
 										</div>
 									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/9.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/10.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">YENİ</span>
-											</div>
-										</div>
-										<div class="product__content content--center">
-											<h4><a href="single-product.html">Sefiller</a></h4>
-											<ul class="prize d-flex">
-												<li>35.00</li>
-												<li class="old_prize">35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/11.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/2.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">EN YENİLER</span>
-											</div>
-										</div>
-										<div class="product__content content--center content--center">
-											<h4><a href="single-product.html">Kuyucaklı Yusuf</a></h4>
-											<ul class="prize d-flex">
-												<li>50.00</li>
-												<li class="old_prize">35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="product product__style--3 col-lg-4 col-md-4 col-sm-6 col-12">
-										<div class="product__thumb">
-											<a class="first__img" href="single-product.html"><img src="images/books/1.jpg" alt="product image"></a>
-											<a class="second__img animation1" href="single-product.html"><img src="images/books/6.jpg" alt="product image"></a>
-											<div class="hot__box">
-												<span class="hot-label">EN YENİLER</span>
-											</div>
-										</div>
-										<div class="product__content content--center content--center">
-											<h4><a href="single-product.html">Kürk Mantolu Madonna</a></h4>
-											<ul class="prize d-flex">
-												<li>50.00</li>
-												<li class="old_prize">35.00</li>
-											</ul>
-											<div class="action">
-												<div class="actions_inner">
-													<ul class="add_to_links">
-														<li><a class="cart" href="cart.html"><i class="bi bi-shopping-bag4"></i></a></li>
-														<li><a class="compare" href="#"><i class="bi bi-love"></i></a></li>
-														<li><a data-toggle="modal" title="Quick View" class="quickview modal-view detail-link" href="#productmodal"><i class="bi bi-search"></i></a></li>
-													</ul>
-												</div>
-											</div>
-											<div class="product__hover--content">
-												<ul class="rating d-flex">
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li class="on"><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-													<li><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
 
 									
 								</div>
@@ -439,17 +329,8 @@
 									</div>
 								
 									
-									<div class="social-sharing">
-										<div class="widget widget_socialsharing_widget">
-											<h3 class="widget-title-modal">Kitabı paylaş</h3>
-											<ul class="social__net social__net--2 d-flex justify-content-start">
-												<li class="facebook"><a href="#" class="rss social-icon"><i class="zmdi zmdi-rss"></i></a></li>
-												<li class="linkedin"><a href="#" class="linkedin social-icon"><i class="zmdi zmdi-linkedin"></i></a></li>
-												<li class="pinterest"><a href="#" class="pinterest social-icon"><i class="zmdi zmdi-pinterest"></i></a></li>
-												<li class="tumblr"><a href="#" class="tumblr social-icon"><i class="zmdi zmdi-tumblr"></i></a></li>
-											</ul>
-										</div>
-									</div>
+								
+
 									<div class="addtocart-btn">
 										<a href="#">Sepete Ekle</a>
 									</div>
