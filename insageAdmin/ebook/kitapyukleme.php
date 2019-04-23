@@ -5,8 +5,8 @@ include "icerikYukleme/dosyaSay.php";?>
 
 <body class="adminbody">
 
-	<div id="main">
-		<?php
+  <div id="main">
+    <?php
 
     include "headbar.php";
     include "sidebar.html";
@@ -79,6 +79,15 @@ include "icerikYukleme/dosyaSay.php";?>
          <h6>&nbsp;&nbsp;<i class="fa fa-file-image-o"></i> Çoklu Fotoğraf Yükle </h6>
          <form action="icerikYukleme/yukle.php?ISBN=<?php echo $_REQUEST['ISBN'] ?>"method="post" enctype="multipart/form-data" id="yukle" >
 
+<<<<<<< HEAD
+          <?php
+          $klasor = 'icerikYukleme/dosyalar/' . $_REQUEST['ISBN'] . '/pages/';
+          if (sayibul($klasor) == $kullaniciCek['pageSize']+2) {
+            ?>&nbsp;&nbsp; <?php  echo "Kitap sayfaları tam"; ?> <i class="fa fa-check" aria-hidden="true"  ></i>
+            <?php
+          } else if (sayibul($klasor) == 0) {?>
+            <input type="file" name="resim[]" id="filer_example2"  multiple="multiple" />
+=======
 														<?php
 $klasor = 'icerikYukleme/dosyalar/' . $_REQUEST['ISBN'] . '/pages/';
 if (sayibul($klasor) == $kullaniciCek['pageSize'] + 2) {
@@ -86,6 +95,7 @@ if (sayibul($klasor) == $kullaniciCek['pageSize'] + 2) {
                               <?php
 } else if (sayibul($klasor) == 0) {?>
                               <input type="file" name="resim[]" id="filer_example2"  multiple="multiple" />
+>>>>>>> c57256a68fdf49253fc75246a8fecc0aa3f420b3
 
             <input type="submit" class="btn btn-danger"  value="Fotoğrafları Yükle  " />
             <?php
@@ -103,7 +113,7 @@ if (sayibul($klasor) == $kullaniciCek['pageSize'] + 2) {
         <h6>&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i> PDF Yükle </h6>
         <form action="icerikYukleme/pdfyukle.php?ISBN=<?php echo $_REQUEST['ISBN'] ?>" method="post" enctype="multipart/form-data" id="yukle" >
 
-         &nbsp;	<input type="file" name="file"/>
+         &nbsp; <input type="file" name="file"/>
          <input type="submit" class="btn btn-danger" value="Pdf Yükle"/>
 
 
@@ -173,7 +183,7 @@ if ($dosya == true) {
         ?>
 
         <tr >
-          <th>	<?php echo $resimCek['sayfaNo'] ?></th>
+          <th>  <?php echo $resimCek['sayfaNo'] ?></th>
 
           <td>
            <span style="float: left; margin-right:10px;"><img
@@ -452,12 +462,12 @@ if ($dosya == true) {
   <?php $sayfa = $kullaniciCek['pageSize'];?>
     //Example 2
     $('#filer_example2').filer({
-    	limit: <?php echo $sayfa + 2; ?>,
-    	maxSize: <?php echo $sayfa + 2; ?>,
-    	extensions: ['jpg', 'jpeg', 'png', 'gif', 'psd'],
-    	changeInput: true,
-    	showThumbs: true,
-    	addMore: true
+      limit: <?php echo $sayfa + 2; ?>,
+      maxSize: <?php echo $sayfa + 2; ?>,
+      extensions: ['jpg', 'jpeg', 'png', 'gif', 'psd'],
+      changeInput: true,
+      showThumbs: true,
+      addMore: true
     });
 
 

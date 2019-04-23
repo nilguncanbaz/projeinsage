@@ -67,8 +67,6 @@ if($ds!=1){//Sayfa Sayısı kadar dosya seçme
 	//hiçbir sorun yoksa for ile tek tek resimleri alıyoruz.
 
 
-
-
 			if(!empty($_FILES["resim"]["name"])){//boş kontrolü
 
 			if(in_array($_FILES["resim"]["type"],$tipler)){//tip kontrolü
@@ -140,11 +138,6 @@ if($ds!=1){//Sayfa Sayısı kadar dosya seçme
 
 		}
 	}
-
-
-
-
-
 
 
 	?>
