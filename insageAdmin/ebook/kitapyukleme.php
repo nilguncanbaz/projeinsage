@@ -81,7 +81,7 @@ $kullaniciCek = $kullaniciSor->fetch(PDO::FETCH_ASSOC);
 
 														<?php
 $klasor = 'icerikYukleme/dosyalar/' . $_REQUEST['ISBN'] . '/pages/';
-if (sayibul($klasor) == $kullaniciCek['pageSize']) {
+if (sayibul($klasor) == $kullaniciCek['pageSize'] + 2) {
     ?>&nbsp;&nbsp; <?php	echo "Kitap sayfaları tam"; ?> <i class="fa fa-check" aria-hidden="true"  ></i>
                               <?php
 } else if (sayibul($klasor) == 0) {?>

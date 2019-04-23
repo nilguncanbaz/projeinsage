@@ -11,7 +11,7 @@
 			<div class="col-lg-8 d-none d-lg-block">
 				<nav class="mainmenu__nav">
 					<ul class="meninmenu d-flex justify-content-start">
-						<li class="drop with--one--item"><a href="../index.php">Anasayfa</a></li>
+						<li class="drop with--one--item"><a href="index.php">Anasayfa</a></li>
 						<li><a href="about.php">Biz Kimiz ?</a></li>
 
 						<li class="drop"><a href="#">Kitaplar</a> 

@@ -14,7 +14,6 @@ if(isset($_POST["kaydet"])){
 	$hariciadres =$_POST['hariciadres'];
 
 
-
 	$query=$db->query("INSERT INTO ebook VALUES (null,'$isbn','$kitapad','$yayinevi','$yayintarihi','$kategori','$sayfasayisi','$dil','$dosyayolu/pages','$hariciadres','pages')", PDO::FETCH_ASSOC);
 
 	mkdir("icerikYukleme/dosyalar/".$isbn); 
@@ -42,7 +41,6 @@ if(isset($_POST["kaydet"])){
 		mkdir("icerikYukleme/dosyalar/".$isbn."/pagesText");
 		
 	}
-
 
 	for($var=0; $var<=$sayfasayisi+1; $var++){
 		if($var==0){
