@@ -43,11 +43,10 @@
 								</ul>
 							</div>
 						</li>
-<<<<<<< HEAD
+
 						<li class="drop"><a href="">Kategoriler</a> 
-=======
+
 						<li class="drop"><a href="#">Kategoriler</a>
->>>>>>> f0026ad350e66efe634723690d36c5e8b34734d7
 							<div class="megamenu mega02">
 								<ul class="item item02">
 									<li class="title">Top Collections</li>
@@ -222,13 +221,13 @@
 										<div class="content-inner">
 
 
-<<<<<<< HEAD
+
 											<div class="switcher-currency">
 												<strong class="label switcher-label">
 													<span> <a href="uyeGirisi/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>  
 												</strong>
 
-=======
+
 						<?php
 } else {?>
 					<li class="setting__bar__icon"><a class="setting__active" href="#"> </a>
@@ -253,7 +252,6 @@
 												<a href="">EN</a> </span>
 												
 												
->>>>>>> f0026ad350e66efe634723690d36c5e8b34734d7
 											</div>
 											<div class="switcher-currency">
 												<strong class="label switcher-label">
