@@ -36,25 +36,20 @@
                     <div class="col-lg-6 col-12">
                         <div class="my__account__wrapper">
 
-                            <form action="#">
+                            <form action="uyeLogin.php" method="post">
                                 <div class="account__form" style="padding:20%;  ">
 								<h3 style="text-align:center" class=" account__title">Giriş Yap</h3>
                                     <div class="input__box">
                                         <label>E-posta Adresi<span>*</span></label>
-                                        <input type="text">
+                                        <input type="mail" name="email" required>
                                     </div>
                                     <div class="input__box">
                                         <label>Şifre<span>*</span></label>
-                                        <input type="text">
+                                        <input type="password" name="parola"required>
                                     </div><br>
                                     <div class="form__btn">
-                                        <button style="padding-left:45%;padding-right:50%">GİRİŞ</button><br><br>
-                                        <label class="label-for-checkbox">
-                                            <input id="rememberme" class="input-checkbox" name="rememberme"
-                                                value="forever" type="checkbox">
-                                            <span>Beni Hatırla </span>
-
-                                        </label>
+                                        <button type="submit" name="giris" style="padding-left:45%;padding-right:50%">GİRİŞ</button><br><br>
+                                        
                                     </div>
                                     <a class="forget_pass" href="#">Şifremi
                                         Unuttum</a>

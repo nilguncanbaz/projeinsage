@@ -142,71 +142,40 @@
 					</li>
 					<?php
 
-if (isset($_SESSION['id'])) {
+if (isset($_SESSION['email'])) {
 
     ?>
-						<li class="wishlist"><a href="#"></a></li>
+					
 						<li class="setting__bar__icon"><a class="setting__active" href="#"></a>
 						<div class="searchbar__content setting__block">
 							<div class="content-inner">
-								<div class="switcher-currency">
+								
+								
+							<div class="switcher-currency">
 									<strong class="label switcher-label">
-										<span>Currency</span>
-									</strong>
-									<div class="switcher-options">
-										<div class="switcher-currency-trigger">
-											<span class="currency-trigger">USD - US Dollar</span>
-											<ul class="switcher-dropdown">
-												<li>GBP - British Pound Sterling</li>
-												<li>EUR - Euro</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="switcher-currency">
-									<strong class="label switcher-label">
-										<span>Language</span>
-									</strong>
-									<div class="switcher-options">
-										<div class="switcher-currency-trigger">
-											<span class="currency-trigger">English01</span>
-											<ul class="switcher-dropdown">
-												<li>English02</li>
-												<li>English03</li>
-												<li>English04</li>
-												<li>English05</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="switcher-currency">
-									<strong class="label switcher-label">
-										<span>Select Store</span>
-									</strong>
-									<div class="switcher-options">
-										<div class="switcher-currency-trigger">
-											<span class="currency-trigger">Fashion Store</span>
-											<ul class="switcher-dropdown">
-												<li>Furniture</li>
-												<li>Shoes</li>
-												<li>Speaker Store</li>
-												<li>Furniture</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="switcher-currency"><
-									<strong class="label switcher-label">
-										<span>My Account</span>
+										<span>DİL SEÇENEĞİ</span>
 									</strong>
 									<div class="switcher-options">
 										<div class="switcher-currency-trigger">
 											<div class="setting__menu">
-												<span><a href="#">Compare Product</a></span>
-												<span><a href="#">My Account</a></span>
-												<span><a href="#">My Wishlist</a></span>
-												<span><a href="#">Sign In</a></span>
-												<span><a href="#">Create An Account</a></span>
+												<span><a href="#">TR</a> 
+												<a href="">EN</a> </span>
+												
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="switcher-currency">
+									<strong class="label switcher-label">
+										<span>Hesabım</span>
+									</strong>
+									<div class="switcher-options">
+										<div class="switcher-currency-trigger">
+											<div class="setting__menu">
+												
+												<span><a href="uyeGirisi/cikis.php">Çıkış</a></span>
+												
 											</div>
 										</div>
 									</div>
@@ -226,8 +195,17 @@ if (isset($_SESSION['id'])) {
 							
 								<div class="switcher-currency">
 									<strong class="label switcher-label">
-										<span> <a href="uyeGirisi/uyeGirisi.php"> ÜYE GİRİŞİ</a> </span>  
+										<span> ÜYE GİRİŞİ</span>  
 									</strong>
+									<div class="switcher-options">
+										<div class="switcher-currency-trigger">
+											<div class="setting__menu">
+												<span><a href="uyeGirisi/uyeGirisi.php">Giriş Yap</a><span>
+												<span><a href="uyeGirisi/uyeGirisi.php">Üye Ol</a><span>
+												
+											</div>
+										</div>
+									</div>
 									
 								</div>
 								<div class="switcher-currency">

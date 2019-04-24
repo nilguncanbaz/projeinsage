@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="tr">
-<?php include "indexHead.html";?>
+<?php include "indexHead.html";
+session_start();?>
 
 <body>
 
@@ -107,26 +108,26 @@
                     <br><br>
                     <div class="col-md-6 col-md-offset-3" style="float:left ;">
                         <div class="input-group">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OegB_0J5Ac8"
+                            <iframe width="560" height="315" src="tanitimvideosulinki"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
                         </div>
                         <div class="input-group">
-                            <p>djksfhsdkjfgsdkjhgk</p>
+                        <p>nasıl kullanılacağına dair tanıtım yazısı</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-md-offset-3" style="float: right;">
                         <div class="input-group">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OegB_0J5Ac8"
+                            <iframe width="560" height="315" src="tanitimvideosulinki"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
                         </div>
                         <div class="input-group">
-                            <p>djksfhsdkjfgsdkjhgk</p>
+                            <p>nasıl kullanılacağına dair tanıtım yazısı</p>
                         </div>
                     </div>
                 </div>
