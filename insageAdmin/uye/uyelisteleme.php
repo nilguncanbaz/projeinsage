@@ -74,7 +74,7 @@
 														<th>Email</th>
 														<th>Bakiye</th>
 														<th>Onay</th>
-														<th>İşlemler</th>
+														
 
 													</tr>
 												</thead>
@@ -92,11 +92,7 @@
 													<td><?php echo $kullaniciCek['email'] ?></td>
 													<td><?php echo $kullaniciCek['bakiye'] ?></td>
 													<td><?php echo "Onaylandı"?></td>
-													<td><a href="uyelistelemeGuncelle.php?userID=<?php echo $kullaniciCek['userID']?>"><button class="btn btn-primary" type="submit" name="guncelle"><i class="fa fa-pencil" aria-hidden="true"></i></button></a>
-
-														<a href="uyeListelemeSil.php?userID=<?php echo $kullaniciCek['userID']?>" onClick="return confirm('Bu üyeyi silmek istediğinize emin misiniz?')"><button class="btn btn-danger" type="submit" name="guncelle"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
-														
-													</td>
+													
 
 												</tr>
 											<?php } ?>
@@ -119,7 +115,7 @@
 													<th>Parola</th>
 													<th>Bakiye</th>
 													<th>Onay</th>
-													<th>İşlemler</th>
+												
 
 												</tr>
 											</thead>
@@ -138,11 +134,7 @@
 													<td><?php echo $kullaniciCek['parola'] ?></td>
 													<td><?php echo $kullaniciCek['bakiye'] ?></td>
 													<td><?php echo "Onaylanmamış"?></td>
-													<td><a href="uyelistelemeGuncelle.php?userID=<?php echo $kullaniciCek['userID']?>"><button class="btn btn-primary" type="submit" name="guncelle"><i class="fa fa-pencil" aria-hidden="true"></i></button></a>
-
-														<a href="uyeListelemeSil.php?userID=<?php echo $kullaniciCek['userID']?>" onClick="return confirm('Bu üyeyi silmek istediğinize emin misiniz?')"><button class="btn btn-danger" type="submit" name="guncelle"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
-														
-													</td>
+													
 
 												</tr>
 											<?php } ?>
@@ -165,7 +157,7 @@
 											<th>Parola</th>
 											<th>Bakiye</th>
 											<th>Onay</th>
-											<th>İşlemler</th>
+											
 
 										</tr>
 									</thead>
@@ -184,11 +176,7 @@
 													<td><?php echo $kullaniciCek['parola'] ?></td>
 													<td><?php echo $kullaniciCek['bakiye'] ?></td>
 													<td><?php echo "Engellendi" ?></td>
-													<td><a href="uyelistelemeGuncelle.php?userID=<?php echo $kullaniciCek['userID']?>"><button class="btn btn-primary" type="submit" name="guncelle"><i class="fa fa-pencil" aria-hidden="true"></i></button></a>
-
-														<a href="uyeListelemeSil.php?userID=<?php echo $kullaniciCek['userID']?>" onClick="return confirm('Bu üyeyi silmek istediğinize emin misiniz?')"><button class="btn btn-danger" type="submit" name="guncelle"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
-														
-													</td>
+													
 
 												</tr>
 											<?php } ?>

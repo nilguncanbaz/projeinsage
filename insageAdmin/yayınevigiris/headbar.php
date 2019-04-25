@@ -25,11 +25,6 @@ if(!isset($_SESSION['email'] )) {
   <nav class="navbar-custom">
 
     <ul class="list-inline float-right mb-0">
-
-
-
-      
-
     
    <?php
    $kullaniciSor=$db->prepare("SELECT * from kullanici where email=:email");

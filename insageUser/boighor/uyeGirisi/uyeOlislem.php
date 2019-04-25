@@ -8,9 +8,9 @@ if(isset($_POST["kayit"])){
 	  	 	$soyad=htmlspecialchars($_POST['soyad']);
 	  	 	$email=htmlspecialchars($_POST['email']);
 	  	 	$parola=htmlspecialchars($_POST['parola']);
-	  	 	$bakiye=$_POST['bakiye'];
-	  	 	$onay=$_POST['onay'];
-	  	 	$rol=$_POST['rol'];
+	  	 	$bakiye=0;
+	  	 	$onay=0;
+	  	 	$rol=0;
 
 	  	 	$kullaniciSor=$db->prepare("SELECT * from kullanici where email=:email");
 	  	 	$kullaniciSor->execute(array(
@@ -44,13 +44,13 @@ if (!$say) {
 	if ($insert) {
 		?> 
 		<script> alert("Kayıt başarılı");</script> 
-		<meta http-equiv="refresh" content="0.2;url=../index.html">
+		<meta http-equiv="refresh" content="0.2;url=uyeGirisi.php">
 		<?php
 	}
 	else{
 		?> 
 		<script> alert("Kayıt başarısız");</script> 
-		<meta http-equiv="refresh" content="0.2;url=register.html">
+		<meta http-equiv="refresh" content="0.2;url=uyeGirisi.php">
 		<?php
 
 	}
@@ -60,7 +60,7 @@ if (!$say) {
 else{
 	?> 
 	<script> alert("Kullanıcı kayıtlarda var.");</script> 
-	<meta http-equiv="refresh" content="0.2;url=register.html">
+	<meta http-equiv="refresh" content="0.2;url=uyeGirisi.php">
 	<?php
 }
 

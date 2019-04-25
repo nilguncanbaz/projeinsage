@@ -158,8 +158,8 @@ if (isset($_SESSION['email'])) {
 									<div class="switcher-options">
 										<div class="switcher-currency-trigger">
 											<div class="setting__menu">
-												<span><a href="#">TR</a> 
-												<a href="">EN</a> </span>
+												<span><a href="#">Türkçe</a> 
+												<a href="">English</a> </span>
 												
 												
 											</div>
@@ -173,7 +173,9 @@ if (isset($_SESSION['email'])) {
 									<div class="switcher-options">
 										<div class="switcher-currency-trigger">
 											<div class="setting__menu">
-												
+
+												<span><a href="uyeGirisi/giris/bilgiler.php">Hesap Bilgileri</a></span>
+												<span><a href="uyeGirisi/giris/kitaplik.php">Kitaplığım</a></span>												
 												<span><a href="uyeGirisi/cikis.php">Çıkış</a></span>
 												
 											</div>

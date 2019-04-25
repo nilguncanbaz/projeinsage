@@ -6,9 +6,9 @@
 
 	<div id="main">
 		<?php
-		include "headbar.php";
-		include "sidebar.html";
-		include "database/baglan.php";
+			include "headbar.php";
+			include "sidebar.html";
+			include "database/baglan.php";
 		?>
 
 		<div class="content-page">
@@ -51,17 +51,17 @@
 											<label for="text">Kategori Adı:</label>
 											<select class="form-control" name="kategori">
 												<?php
-												$query = $db->query("SELECT * FROM kategori", PDO::FETCH_ASSOC);
-												if ($query->rowCount()) {
-													foreach ($query as $row) {
+$query = $db->query("SELECT * FROM kategori", PDO::FETCH_ASSOC);
+if ($query->rowCount()) {
+    foreach ($query as $row) {
 
-														?>
+        ?>
 														<option value="<?php echo $row["kategoriAdı"] ?>"><?php echo $row["kategoriAdı"] ?> </option>
 														<?php
 
-													}
-												}
-												?>
+    }
+}
+?>
 											</select>
 											<a href="kategorikayit.php">Yeni Kategori Ekle</a><br>
 
@@ -70,17 +70,17 @@
 											<label for="text">Yayınevi Adı:</label>
 											<select class="form-control" name="yayinevi">
 												<?php
-												$query = $db->query("SELECT * FROM yayinevleri", PDO::FETCH_ASSOC);
-												if ($query->rowCount()) {
-													foreach ($query as $row) {
+$query = $db->query("SELECT * FROM yayinevleri", PDO::FETCH_ASSOC);
+if ($query->rowCount()) {
+    foreach ($query as $row) {
 
-														?>
+        ?>
 														<option value="<?php echo $row["ad"] ?>"><?php echo $row["ad"] ?> </option>
 														<?php
 
-													}
-												}
-												?>
+    }
+}
+?>
 											</select>
 											<a href="yayinevikayit.php">Yeni Yayınevi Ekle</a><br>
 											<label for="text">Yayın Tarih:</label>

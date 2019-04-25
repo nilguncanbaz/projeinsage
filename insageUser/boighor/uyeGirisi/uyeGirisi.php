@@ -37,19 +37,20 @@
                         <div class="my__account__wrapper">
 
                             <form action="uyeLogin.php" method="post">
-                                <div class="account__form" style="padding:20%;  ">
-								<h3 style="text-align:center" class=" account__title">Giriş Yap</h3>
+                                <div class="account__form" style="padding:20%; padding-bottom:25% ">
+                                    <h3 style="text-align:center" class=" account__title">Giriş Yap</h3>
                                     <div class="input__box">
                                         <label>E-posta Adresi<span>*</span></label>
                                         <input type="mail" name="email" required>
                                     </div>
                                     <div class="input__box">
                                         <label>Şifre<span>*</span></label>
-                                        <input type="password" name="parola"required>
+                                        <input type="password" name="parola" required>
                                     </div><br>
                                     <div class="form__btn">
-                                        <button type="submit" name="giris" style="padding-left:45%;padding-right:50%">GİRİŞ</button><br><br>
-                                        
+                                        <button type="submit" name="giris"
+                                            style="padding-left:45%;padding-right:50%">GİRİŞ</button><br><br>
+
                                     </div>
                                     <a class="forget_pass" href="#">Şifremi
                                         Unuttum</a>
@@ -68,9 +69,10 @@
                                     <div class="form__btn">
 
                                         <p>Üye değil misiniz?<br>Hemen üye olun, inSAge ile kitaplardan faydalanın !</p>
-                                        <img style="width:56%"src="img/uyeOl.png" alt="uyeOl"> <br><br>
-                                       
-                                        <button style="padding-left:25%;padding-right:25%" type="submit">Hemen Üye Ol</button>
+                                        <img style="width:56%" src="img/uyeOl.png" alt="uyeOl"> <br><br>
+
+                                        <button type="submit" style="padding-left:25%;padding-right:25%" >Hemen Üye
+                                            Ol</button>
 
                                     </div><br>
                                 </div>

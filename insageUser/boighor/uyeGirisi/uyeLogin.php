@@ -33,7 +33,7 @@ if(isset($_POST["giris"])){
 else{
 	?>
 	<script> alert("Giriş başarısız");</script> 
-	<meta http-equiv="refresh" content="0.0;url=../index.php?durum=no&userID=$userID"><?php
+	<meta http-equiv="refresh" content="0.0;url=uyeGi0000risi.php?durum=no&userID=$userID"><?php
 			exit; //her header'dan sonra sonlandırma için exit kullanmak yararlıdır.
 		}
 	}

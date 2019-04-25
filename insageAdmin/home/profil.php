@@ -58,14 +58,14 @@ include "head.html"; ?>
 												<div class="col-lg-6">
 													<div class="form-group">
 														<label>Email</label>
-														<input class="form-control" name="email" type="text" value="<?php echo $kullaniciCek['email'] ?>" />
+														<input class="form-control" name="email" type="text" value="<?php echo $kullaniciCek['email'] ?>" required/>
 													</div>
 												</div>              			                                
 
 												<div class="col-lg-6">
 													<div class="form-group">
 														<label>Parola</label>
-														<input class="form-control" name="parola" type="password" value="<?php echo $kullaniciCek['parola'] ?>" />
+														<input class="form-control" name="parola" type="password" value="" required />
 													</div>
 												</div>   
 											</div>

@@ -14,7 +14,7 @@
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area bg-image--6">
             <div class="container">
-                <div class="row">
+                <div class="row">   
                     <div class="col-lg-12">
                         <div class="bradcaump__inner text-center">
                             <h2 class="bradcaump-title">Üye Ol</h2>
@@ -36,8 +36,8 @@
                     <div class="col-lg-12 col-12">
                         <div class="my__account__wrapper">
 
-                            <form action="#">
-                                <div class="account__form" style="padding:5%; ">
+                            <form action="uyeOlislem.php" method="post">
+                                <div class="account__form" style="padding:5%;">
                                 <h3 style="text-align:center" class=" account__title">Üye Ol</h3>
                                     <div class="input__box">
                                         <label>Ad <span>*</span></label>
@@ -49,19 +49,15 @@
                                     </div>
                                     
                                     <div class="input__box">
-                                        <label>E-posta Adresi<span>*</span></label>
-                                        <input type="text" name="eposta">
-                                    </div>
-                                    <div class="input__box">
-                                        <label>Telefon<span>*</span></label>
-                                        <input type="text" name="telefon">
-                                    </div>
+                                        <label>E-posta <span>*</span></label>
+                                        <input type="text" name="email">
+                                    </div>     
                                     <div class="input__box">
                                         <label>Şifre<span>*</span></label>
-                                        <input type="text" name="sifre">
+                                        <input type="text" name="parola">
                                     </div><br>
                                     <div style="text-align:right" class="form__btn">
-                                        <button style="">Üye Ol</button><br><br>
+                                        <button type="submit" name="kayit">Üye Ol</button><br><br>
                                         
                                     </div>
                                   

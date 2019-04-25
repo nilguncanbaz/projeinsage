@@ -21,9 +21,8 @@ session_start();?>
                                     <h2>Favori <span>kitabını </span></h2>
                                     <h2><span>Buradan </span></h2>
                                     <h2>Satın <span>al</span></h2>
-                                    <a class="shopbtn" href="kategoriicerik.php">şimdi satın al</a>
-
-
+                                    <br>
+                        
                                 </div><br><br>
                             </div>
                         </div>
@@ -41,7 +40,7 @@ session_start();?>
                                     <h2>Favori <span>kitabını </span></h2>
                                     <h2><span>Buradan </span></h2>
                                     <h2>Satın <span>al</span></h2>
-                                    <a class="shopbtn" href="kategoriicerik.php">şimdi satın al</a>
+                                    <br>
 
 
                                 </div>
@@ -61,7 +60,7 @@ session_start();?>
                     <div class="col-lg-12">
                         <div class="section__title text-center">
                             <h2 class="title__be--2"><span class="color--theme">Arama</span></h2>
-                            <p>Kitap aramasını buradan yapabilirsiniz</p>
+                            <p>İstediğiniz kitap aramasını buradan yapabilirsiniz</p>
                         </div>
                     </div>
                 </div>

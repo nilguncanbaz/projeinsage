@@ -19,10 +19,10 @@ ob_start();
 					<div class="row">
 						<div class="col-xl-12">
 							<div class="breadcrumb-holder">
-								<h1 class="main-title float-left">Menü</h1>
+								<h1 class="main-title float-left">Anasayfa</h1>
 								<ol class="breadcrumb float-right">
 									<li class="breadcrumb-item">Anasayfa</li>
-									<li class="breadcrumb-item active">Menü</li>
+								
 								</ol>
 								<div class="clearfix"></div>
 							</div>
