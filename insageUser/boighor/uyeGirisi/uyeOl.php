@@ -41,7 +41,7 @@
                                 <h3 style="text-align:center" class=" account__title">Üye Ol</h3>
                                     <div class="input__box">
                                         <label>Ad <span>*</span></label>
-                                        <input type="text" name="ad">
+                                        <input type="text" name="ad" >
                                     </div>
                                     <div class="input__box">
                                         <label>Soyad<span>*</span></label>

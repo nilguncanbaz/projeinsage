@@ -375,11 +375,11 @@ if ($dosya == true) {
                                 <div class="card-body">
                                   <form action="../ebook/icerikYukleme/txtKaydet.php?ISBN=<?php echo $_REQUEST['ISBN'] ?>" method="post">
 
-                                    <?php
-                                    $isim = "../ebook/" . $metinCek['yol'];
-                                    $dosya = fopen($isim, 'r');
+                                      <?php
+                                      $isim = "../ebook/" . $metinCek['yol'];
+                                      $dosya = fopen($isim, 'r');
 
-                                    ?>
+                                      ?>
                                     <textarea rows="10" class="form-control" name="content" value=""><?php echo fread($dosya, '2048'); ?></textarea><br>
                                     <input type="text" name="sayfaNo" value="<?php echo $metinCek['sayfaNo'] ?>" hidden/>
                                     <input type="submit" name="bilgi" class="btn btn-success btn-sm" value="Kaydet">

@@ -4,7 +4,7 @@
             <div class="col-md-6 col-sm-6 col-6 col-lg-2">
                 <div class="logo">
                     <a href="../index.php">
-                        <img src="../images/logo/logo.png" alt="logo images">
+                        <img src="../../images/logo/logo.png" alt="logo images">
                     </a>
                 </div>
             </div>
@@ -147,13 +147,32 @@
 if (isset($_SESSION['email'])) {
 
     ?>
-                    <?php echo Hoşgeldin, $_SESSION['ad'];?>
+
                     <li class="setting__bar__icon"><a class="setting__active" href="#"></a>
+
                         <div class="searchbar__content setting__block">
                             <div class="content-inner">
 
 
                                 <div class="switcher-currency">
+                                    <strong class="label switcher-label">
+                                        <span> <?php echo "Merhaba ". $_SESSION['ad']?></span>
+                                    </strong>
+                                    <div class="switcher-options">
+                                        <div class="switcher-currency-trigger">
+                                            <div class="setting__menu">
+                                                <span>
+                                                    <a href="bilgiler.php">Hesap Bilgilerim</a>
+                                                    <a href="kitaplik.php">Kitaplığım</a>
+                                                    <a href="../cikis.php">Çıkış</a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="switcher-currency">
+
                                     <strong class="label switcher-label">
                                         <span>DİL SEÇENEĞİ</span>
                                     </strong>
@@ -169,133 +188,117 @@ if (isset($_SESSION['email'])) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="switcher-currency">
-                                    <strong class="label switcher-label">
-                                        <span></span>
-                                    </strong>
-                                    <div class="switcher-options">
-                                        <div class="switcher-currency-trigger">
-                                            <div class="setting__menu">
-                                                <span>Hesabım</span>
-                                                <span><a href="hesap/bilgiler.php">Hesap Bilgileri</a></span>
-                                                <span><a href="hesap/kitaplik.php">Kitaplığım</a></span>
-                                                <span><a href="cikis.php">Çıkış</a></span>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                    </li>
+            </div>
+            </li>
 
 
 
-                    <?php
+            <?php
+
 } else {?>
-                    <li class="setting__bar__icon"><a class="setting__active" href="#"> </a>
-                        <div class="searchbar__content setting__block">
-                            <div class="content-inner">
+            <li class="setting__bar__icon"><a class="setting__active" href="#"> </a>
+                <div class="searchbar__content setting__block">
+                    <div class="content-inner">
 
 
-                                <div class="switcher-currency">
-                                    <strong class="label switcher-label">
-                                        <span> ÜYE GİRİŞİ</span>
-                                    </strong>
-                                    <div class="switcher-options">
-                                        <div class="switcher-currency-trigger">
-                                            <div class="setting__menu">
-                                                <span><a href="uyeGirisi.php">Giriş Yap</a><span>
-                                                        <span><a href="uyeGirisi.php">Üye Ol</a><span>
+                        <div class="switcher-currency">
+                            <strong class="label switcher-label">
+                                <span> ÜYE GİRİŞİ</span>
+                            </strong>
+                            <div class="switcher-options">
+                                <div class="switcher-currency-trigger">
+                                    <div class="setting__menu">
+                                        <span><a href="uyeGirisi.php">Giriş Yap</a><span>
+                                                <span><a href="uyeGirisi.php">Üye Ol</a><span>
 
-                                            </div>
-                                        </div>
                                     </div>
-
                                 </div>
-                                <div class="switcher-currency">
-                                    <strong class="label switcher-label">
-                                        <span>DİL SEÇENEĞİ</span>
-                                    </strong>
-                                    <div class="switcher-options">
-                                        <div class="switcher-currency-trigger">
-                                            <div class="setting__menu">
-                                                <span>
-                                                    <a href="#">Türkçe</a>
-                                                    <!--<a href="">English</a> -->
-                                                </span>
+                            </div>
 
-
-                                            </div>
-                                        </div>
+                        </div>
+                        <div class="switcher-currency">
+                            <strong class="label switcher-label">
+                                <span>DİL SEÇENEĞİ</span>
+                            </strong>
+                            <div class="switcher-options">
+                                <div class="switcher-currency-trigger">
+                                    <div class="setting__menu">
+                                        <span>
+                                            <a href="#">Türkçe</a>
+                                            <!--<a href="">English</a> -->
+                                        </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </li>
-                    <?php
+                    </div>
+                </div>
+            </li>
+            <?php
 }
 
 ?>
 
+            </ul>
+        </div>
+    </div>
+    <!-- Start Mobile Menu -->
+    <div class="row d-none">
+        <div class="col-lg-12 d-none">
+            <nav class="mobilemenu__nav">
+                <ul class="meninmenu">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="#">Kitaplar</a>
+                        <ul>
+                            <li><a href="portfolio.html">Categories</a>
+                                <ul>
+                                    <li><a href="portfolio.html">Biography</a></li>
+                                    <li><a href="portfolio-details.html">Business</a></li>
+                                    <li><a href="portfolio-details.html">Cookbooks</a></li>
+                                    <li><a href="portfolio-details.html">Health & Fitness</a></li>
+                                    <li><a href="portfolio-details.html">History</a></li>
+                                    <li><a href="portfolio-details.html">Business</a></li>
+                                    <li><a href="portfolio-details.html">Business</a></li>
+
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Kategoriler</a>
+                        <ul>
+                            <li><a href="portfolio.html">Categories</a>
+                                <ul>
+                                    <li><a href="portfolio.html">Biography</a></li>
+                                    <li><a href="portfolio-details.html">Business</a></li>
+                                    <li><a href="portfolio-details.html">Cookbooks</a></li>
+                                    <li><a href="portfolio-details.html">Health & Fitness</a></li>
+                                    <li><a href="portfolio-details.html">History</a></li>
+                                    <li><a href="portfolio-details.html">Business</a></li>
+                                    <li><a href="portfolio-details.html">Business</a></li>
+
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+
+
+                    <li><a href="../contact.html">İletişim</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-        <!-- Start Mobile Menu -->
-        <div class="row d-none">
-            <div class="col-lg-12 d-none">
-                <nav class="mobilemenu__nav">
-                    <ul class="meninmenu">
-                        <li><a href="index.html">Anasayfa</a></li>
-                        <li><a href="#">Kitaplar</a>
-                            <ul>
-                                <li><a href="portfolio.html">Categories</a>
-                                    <ul>
-                                        <li><a href="portfolio.html">Biography</a></li>
-                                        <li><a href="portfolio-details.html">Business</a></li>
-                                        <li><a href="portfolio-details.html">Cookbooks</a></li>
-                                        <li><a href="portfolio-details.html">Health & Fitness</a></li>
-                                        <li><a href="portfolio-details.html">History</a></li>
-                                        <li><a href="portfolio-details.html">Business</a></li>
-                                        <li><a href="portfolio-details.html">Business</a></li>
+    </div>
 
-
-                                    </ul>
-                                </li>
-                            </ul>
-
-                        </li>
-                        <li><a href="#">Kategoriler</a>
-                            <ul>
-                                <li><a href="portfolio.html">Categories</a>
-                                    <ul>
-                                        <li><a href="portfolio.html">Biography</a></li>
-                                        <li><a href="portfolio-details.html">Business</a></li>
-                                        <li><a href="portfolio-details.html">Cookbooks</a></li>
-                                        <li><a href="portfolio-details.html">Health & Fitness</a></li>
-                                        <li><a href="portfolio-details.html">History</a></li>
-                                        <li><a href="portfolio-details.html">Business</a></li>
-                                        <li><a href="portfolio-details.html">Business</a></li>
-
-
-                                    </ul>
-                                </li>
-                            </ul>
-
-                        </li>
-
-
-
-                        <li><a href="../contact.html">İletişim</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-        <!-- End Mobile Menu -->
-        <div class="mobile-menu d-block d-lg-none">
-        </div>
-        <!-- Mobile Menu -->
+    <!-- End Mobile Menu -->
+    <div class="mobile-menu d-block d-lg-none">
+    </div>
+    <!-- Mobile Menu -->
     </div>
 </header>
 <!-- Start Search Popup -->

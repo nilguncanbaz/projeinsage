@@ -21,7 +21,7 @@ if(isset($_POST["giris"])){
 
 	$_SESSION['email']=$email; //giriş yapıldıysa girilen maili session atıp sakladım
 	$_SESSION['ad']=$kullaniciCek['ad'];
-	$_SESSION['soyad']=$soyad;
+	$_SESSION['soyad']=$kullaniciCek['soyad'];
 	$_SESSION['yol']=$yol;
 	$_SESSION['rol']=$rol;
 	
@@ -33,7 +33,7 @@ if(isset($_POST["giris"])){
 else{
 	?>
 	<script> alert("Giriş başarısız");</script> 
-	<meta http-equiv="refresh" content="0.0;url=uyeGi0000risi.php?durum=no&userID=$userID"><?php
+	<meta http-equiv="refresh" content="0.0;url=uyeGirisi.php?durum=no&userID=$userID"><?php
 			exit; //her header'dan sonra sonlandırma için exit kullanmak yararlıdır.
 		}
 	}
