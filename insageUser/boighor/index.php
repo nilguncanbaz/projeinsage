@@ -1,55 +1,44 @@
 <!doctype html>
 <html lang="tr">
 <?php include "indexHead.html";
+include "database/baglan.php";
 session_start();?>
 
 <body>
 
     <div class="wrapper" id="wrapper">
         <?php include "indexHeader.php";?> <br> <br> <br> <br>
+        <?php
+            $slider = $db->prepare("SELECT * from slider"); //kullanici tablousundaki tüm sütunları seçtik
+            $slider->execute();
+
+            while ($sliderCek = $slider->fetch(PDO::FETCH_ASSOC)) {?>
 
 
         <!-- Start Slider area -->
         <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
             <!-- Start Single Slide -->
-            <div class="slide animation__style3 bg-image--1 align__center--left">
+            <div class="slide animation__style3 bg-slider--<?php echo $sliderCek['id'] ?> align__center--left">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <div class="slider__content">
                                 <div class="contentbox">
-                                    <h2>Favori <span>kitabını </span></h2>
-                                    <h2><span>Buradan </span></h2>
-                                    <h2>Satın <span>al</span></h2>
+                                    <h2 style="color:white">Favori kitabını </h2>
+                                    <h2 style="color:tomato ">inSAGE'den</h2>
+                                    <h2 style="color:white">Satın al.</h2>
                                     <br>
-                        
-                                </div><br><br>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- End Single Slide -->
-            <!-- Start Single Slide -->
-            <div class="slide animation__style3 bg-image--7 align__center--left">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="slider__content">
-                                <div class="contentbox">
-                                    <h2>Favori <span>kitabını </span></h2>
-                                    <h2><span>Buradan </span></h2>
-                                    <h2>Satın <span>al</span></h2>
-                                    <br>
+                <!-- End Single Slide -->
+                <?php }
 
-
-                                </div>
-                            </div><br><br>
-                        </div>
-                    </div>
-                </div>
+?>
             </div>
-            <!-- End Single Slide -->
         </div>
         <!-- End Slider area -->
 
@@ -107,20 +96,18 @@ session_start();?>
                     <br><br>
                     <div class="col-md-6 col-md-offset-3" style="float:left ;">
                         <div class="input-group">
-                            <iframe width="560" height="315" src="tanitimvideosulinki"
-                                frameborder="0"
+                            <iframe width="560" height="315" src="tanitimvideosulinki" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
                         </div>
                         <div class="input-group">
-                        <p>nasıl kullanılacağına dair tanıtım yazısı</p>
+                            <p>nasıl kullanılacağına dair tanıtım yazısı</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-md-offset-3" style="float: right;">
                         <div class="input-group">
-                            <iframe width="560" height="315" src="tanitimvideosulinki"
-                                frameborder="0"
+                            <iframe width="560" height="315" src="tanitimvideosulinki" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
@@ -152,8 +139,8 @@ session_start();?>
                             <div class="product__thumb">
                                 <a class="first__img" href="kitapicerik.php"><img src="images/books/1.jpg"
                                         alt="product image"></a>
-                                <a class="second__img animation1" href="kitapicerik.php"><img
-                                        src="images/books/2.jpg" alt="product image"></a>
+                                <a class="second__img animation1" href="kitapicerik.php"><img src="images/books/2.jpg"
+                                        alt="product image"></a>
                                 <div class="hot__box">
                                     <span class="hot-label">EN ÇOK SATANLAR</span>
                                 </div>
@@ -196,8 +183,8 @@ session_start();?>
                             <div class="product__thumb">
                                 <a class="first__img" href="kitapicerik.php"><img src="images/books/3.jpg"
                                         alt="product image"></a>
-                                <a class="second__img animation1" href="kitapicerik.php"><img
-                                        src="images/books/4.jpg" alt="product image"></a>
+                                <a class="second__img animation1" href="kitapicerik.php"><img src="images/books/4.jpg"
+                                        alt="product image"></a>
                                 <div class="hot__box color--2">
                                     <span class="hot-label">HOT</span>
                                 </div>
@@ -239,7 +226,7 @@ session_start();?>
         </section>
         <!-- Start BEst Seller Area -->
         <!-- Start NEwsletter Area -->
-        <section class="wn__newsletter__area bg-image--2">
+        <section class="wn__newsletter__area bg-image--3">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 offset-lg-5 col-md-12 col-12 ptb--150">
@@ -283,8 +270,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/1.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/1.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="kitapicerik.php"><img
                                                     src="images/books/2.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -329,8 +316,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/3.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/3.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="skitapicerik.php"><img
                                                     src="images/books/9.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -376,8 +363,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/5.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/5.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="kitapicerik.php"><img
                                                     src="images/books/6.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -421,8 +408,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/7.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/7.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="kitapicerik.php"><img
                                                     src="images/books/8.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -468,8 +455,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/9.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/9.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="kitapicerik.php"><img
                                                     src="images/books/7.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -513,8 +500,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/11.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/11.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="kitapicerik.php"><img
                                                     src="images/books/5.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -560,8 +547,8 @@ session_start();?>
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                                     <div class="product product__style--3">
                                         <div class="product__thumb">
-                                            <a class="first__img" href="kitapicerik.php"><img
-                                                    src="images/books/8.jpg" alt="product image"></a>
+                                            <a class="first__img" href="kitapicerik.php"><img src="images/books/8.jpg"
+                                                    alt="product image"></a>
                                             <a class="second__img animation1" href="kitapicerik.php"><img
                                                     src="images/books/4.jpg" alt="product image"></a>
                                             <div class="hot__box">
@@ -1603,7 +1590,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1649,7 +1636,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1795,7 +1782,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1841,7 +1828,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1889,7 +1876,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1935,7 +1922,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -1983,7 +1970,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2029,7 +2016,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2077,7 +2064,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2123,7 +2110,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2177,7 +2164,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                    
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2223,7 +2210,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2271,7 +2258,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2317,7 +2304,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2365,7 +2352,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2411,7 +2398,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2459,7 +2446,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2505,7 +2492,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2553,7 +2540,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2599,7 +2586,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2790,7 +2777,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2838,7 +2825,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                      
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2884,7 +2871,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2932,7 +2919,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -2978,7 +2965,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -3026,7 +3013,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -3072,7 +3059,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -3120,7 +3107,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                        
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -3166,7 +3153,7 @@ session_start();?>
                                                     <ul class="add_to_links">
                                                         <li><a class="cart" href="cart.html"><i
                                                                     class="bi bi-shopping-bag4"></i></a></li>
-                                                       
+
                                                         <li><a class="compare" href="#"><i class="bi bi-love"></i></a>
                                                         </li>
                                                         <li><a data-toggle="modal" title="Quick View"
@@ -3193,8 +3180,8 @@ session_start();?>
                         </div>
                     </div>
                     <!-- End Single Tab Content -->
-            
-                 
+
+
                 </div>
             </div>
         </section>

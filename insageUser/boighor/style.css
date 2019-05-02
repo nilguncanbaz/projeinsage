@@ -628,6 +628,22 @@ a {
   margin-bottom: -30px; }
 
 /* Background Image */
+.bg-slider--1 {
+  background-image: url(images/slider/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+.bg-slider--2 {
+  background-image: url(images/slider/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+.bg-slider--3 {
+  background-image: url(images/slider/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
 .bg-image--1 {
   background-image: url(images/bg/1.jpg);
   background-repeat: no-repeat;
