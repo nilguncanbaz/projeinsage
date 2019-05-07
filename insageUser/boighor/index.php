@@ -8,15 +8,16 @@ session_start();?>
 
     <div class="wrapper" id="wrapper">
         <?php include "indexHeader.php";?> <br> <br> <br> <br>
-        <?php
-            $slider = $db->prepare("SELECT * from slider"); //kullanici tablousundaki tüm sütunları seçtik
-            $slider->execute();
-
-            while ($sliderCek = $slider->fetch(PDO::FETCH_ASSOC)) {?>
+        
 
 
         <!-- Start Slider area -->
         <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
+            
+            <?php
+            $slider = $db->prepare("SELECT * from slider"); //kullanici tablousundaki tüm sütunları seçtik
+            $slider->execute();
+            while ($sliderCek = $slider->fetch(PDO::FETCH_ASSOC)) {?>
             <!-- Start Single Slide -->
             <div class="slide animation__style3 bg-slider--<?php echo $sliderCek['id'] ?> align__center--left">
                 <div class="container">
@@ -24,22 +25,25 @@ session_start();?>
                         <div class="col-lg-8">
                             <div class="slider__content">
                                 <div class="contentbox">
-                                    <h2 style="color:white">Favori kitabını </h2>
-                                    <h2 style="color:tomato ">inSAGE'den</h2>
-                                    <h2 style="color:white">Satın al.</h2>
-                                    <br>
-
+                                    <div class="transbox">
+                                        <br><br>
+                                        <h2 class="color-slider"> 
+                                            <?php echo $sliderCek['icerik'] ?><br>
+                                        </h2> <br><br><br><br>
+                                    </div><br>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+       
                 <!-- End Single Slide -->
                 <?php }
 
-?>
-            </div>
-        </div>
+?> </div>
+            
+        
         <!-- End Slider area -->
 
 

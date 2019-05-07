@@ -638,11 +638,28 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-.bg-slider--3 {
-  background-image: url(images/slider/3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
+  .bg-slider--3 {
+    background-image: url(images/slider/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    
+  }
+ 
+  div.transbox {
+    
+
+ }
+ .color-slider{
+  -webkit-text-fill-color: white;
+  text-shadow: 3px 2px 1px #000;
+
+}
+.color-slider2{
+  -webkit-text-fill-color:tomato;
+  text-shadow: 3px 2px 1px #000 ;
+
+} 
 
 .bg-image--1 {
   background-image: url(images/bg/1.jpg);
